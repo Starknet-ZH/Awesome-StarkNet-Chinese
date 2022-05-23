@@ -27,6 +27,7 @@
 </div>
 
 
+
 ## 官方资源
 
 - [官网](https://starknet.io/)
@@ -38,7 +39,7 @@
 - [Cairo Reference](https://www.cairo-lang.org/docs/reference/index.html) - Cairo 语义详解
 - [Cairo – a Turing-complete STARK-friendly CPU architecture](https://eprint.iacr.org/2021/1063.pdf) - Cairo 白皮书
 - [Cairo 程序执行的验证代数表达式](https://arxiv.org/abs/2109.14534) - 使用 [精益证明助理 (Lean proof assistant)](<https://en.wikipedia.org/wiki/Lean_(proof_assistant)>) 的 Cairo 证明有效性
-- [StarkNet Playground](https://www.starknet.io/playground) - 浏览器 StarkNet 示例 
+- [StarkNet Playground](https://www.starknet.io/playground) - 浏览器 StarkNet 示例
 - [Cairo Playground](https://www.cairo-lang.org/playground/) - 浏览器 Cairo IDE、范例和谜题
 - [StarkNet Voting Workshop](https://starkware.notion.site/starkware/StarkNet-Voting-Workshop-b61ef5f4a62d45af86892cba3158f7e6) - 投票 dApp 开发指南
 - [YouTube channel](https://www.youtube.com/channel/UCnDWguR8mE2oDBsjhQkgbvg/playlists) - StarkWare 官方 YouTube 频道
@@ -83,11 +84,11 @@
 
 ## 官方 GitHub 库
 
-- [StarkWare](https://github.com/starkware-libs)
-- [Cairo Language](https://github.com/starkware-libs/cairo-lang)
-- [starkex-contracts](https://github.com/starkware-libs/starkex-contracts)
+- [StarkWare](https://github.com/starkware-libs) - 官方代码库
+- [Cairo Language](https://github.com/starkware-libs/cairo-lang) - StarkNet 语言
+- [starkex-contracts](https://github.com/starkware-libs/starkex-contracts) StarkEx 合约
 - [veedo](https://github.com/starkware-libs/veedo) - Verifiable Delay Function
-- [starkex-resources](https://github.com/starkware-libs/starkex-resources)
+- [starkex-resources](https://github.com/starkware-libs/starkex-resources) - StarkEx 资源
 - [starkgate-frontend](https://github.com/starkware-libs/starkgate-frontend) - StarkGate 前端
 - [stark-perpetual](https://github.com/starkware-libs/stark-perpetual) - 永续合约
 - [starkex-for-spot-trading](https://github.com/starkware-libs/starkex-for-spot-trading) - 现货交易
@@ -134,7 +135,7 @@
 - [Cairo Base-64](https://github.com/dhruvkelawala/cairo-base64)
 - [Flashloan](https://github.com/tohrnii/flashloan-starknet)
 - [Oriac](https://github.com/xJonathanLEI/oriac) - Rust 部署 Cairo VM
-- - 用 Cairo [部署 ERC-721 合约](https://github.com/scaffold-eth/scaffold-eth/tree/starknet-nft)
+- 用 Cairo [部署 ERC-721 合约](https://github.com/scaffold-eth/scaffold-eth/tree/starknet-nft)
 - [Rust 部署  Cairo VM](https://github.com/lambdaclass/giza)
 - [链上存取控制合约](https://github.com/419Labs/access-controller-contracts) - 卡槽模式，用以链上注册 | by [@alpharoad_fi](https://twitter.com/alpharoad_fi)
 - [tiny-dnn-on-starknet](https://github.com/guiltygyoza/tiny-dnn-on-starknet) - 神经网络
