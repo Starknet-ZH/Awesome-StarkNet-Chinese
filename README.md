@@ -62,7 +62,7 @@
 - [starknet-hardhat-plugin](https://github.com/Shard-Labs/starknet-hardhat-plugin) - Hardhat Starknet 工具
 - [cairo-jupyter](https://github.com/ankitchiplunkar/cairo-jupyter) - Cairo 合约语言 Jupyter 内核
 - [pre-commit-cairo](https://github.com/franalgaba/pre-commit-cairo) - Cairo git 代码管理工具
-- 一站式管理工具 [@yeoman](https://twitter.com/yeoman) [生成器](https://github.com/onlydustxyz/generator-starknet)
+- [Generator](https://github.com/onlydustxyz/generator-starknet) - 一站式管理工具 [@yeoman](https://twitter.com/yeoman) 生成器
 - [starknet-devnet](https://github.com/Shard-Labs/starknet-devnet) - Starknet 本地测试网
 - [Starkops](https://github.com/0xs34n/starkops) - TypeScript 语言 StarkNet 工具链命令行
 - [starknet-web3-rpc-adapter](https://github.com/software-mansion-labs/starknet-web3-rpc-adapter) - 向 StarkNet 传输信息的转接器应用
@@ -70,13 +70,12 @@
 - [starknet.js](https://github.com/0xs34n/starknet.js) - StarkNet JavaScript 代码库
 - [Nethermind 全节点客户端](https://github.com/NethermindEth/juno)
 - [Pathfinder 全节点](https://github.com/eqlabs/pathfinder)
-- [StarkTx 交易解码器](https://starktx.info/)
+- [Starktx](http://starktx.info) - 交易解码工具 | [源代码和文档](https://github.com/TokenFlowInsights/StarkTx)
 - [voyager](https://voyager.online) - 区块链浏览器
 - [Giza](https://github.com/maxgillett/giza) - Cairo VM 运行的证明和验证代码库
 - [Felucca](https://github.com/franalgaba/felucca) - 代码依赖性管理工具 Felucca
 - [StarkNet 数据仓库 (“SDW”)](https://tokenflow.live/blog/edw-open)
 - [ZigZag StarkNet 预言机](https://github.com/ZigZagExchange/starknet-oracle)
-- 交易解码工具 [http://starktx.info](https://t.co/xw9zlzTtT9) | [源代码和文档](https://github.com/TokenFlowInsights/StarkTx)
 - [Fossil](https://docs.oiler.network/oiler-network/products/fossil/getting-started) - Starknet L2 Verifier 验证合约 by [@OilerNetwork](https://twitter.com/OilerNetwork) | [API](https://fossil.oiler.network/docs) | [官宣](https://medium.com/oiler-network/introducing-fossil-ce4c23ad17c4)
 - [React + Redux 库](https://github.com/ruleslabs/starknet-redux-multicall) - 通过批量缓存调用，撷取每个区块的状态
 - [DEX 聚合交易解码器](https://github.com/zoeAD/basic-solver)
