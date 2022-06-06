@@ -25,6 +25,7 @@
 </div>
 
 
+
 ## 官方资源
 
 - [官网](https://starknet.io/)
@@ -130,7 +131,8 @@
 - 通过 OpenZepplin Cairo 合约标准[部署机枪池代币 ERC-4626](https://github.com/OpenZeppelin/cairo-contracts/issues/277) | [代码](https://github.com/koloz193/ERC4626)
 - [Omni Account](https://github.com/happenwah/omni-account) - StarkNet 通用帐户
 - [StarkNet 钱包 API](https://github.com/myBraavos/get-starknet-wallet)
-- [Gradual Dutch](https://github.com/sambarnes/cairo-dutch/pull/1)
+- [Gradual Dutch](https://github.com/sambarnes/cairo-dutch/pull/1) - 荷兰拍 NFT 拍卖机制
+- [Soul Moment](https://github.com/ChecksFinance/soul-moment) - Cairo 语言 Soulbound Token (SBT)
 - [RICKS](https://github.com/FawadHa1der/ricks-cairo-contracts) - NFT 碎片化协议
 - Cairo 部署 [NFT 限价拍卖机制 CRISP](https://github.com/08351ty/CRISP-cairo)
 - [Pytest](https://github.com/TimNooren/pytest-cairo) - Python 测试 Cairo 和 StarkNet 
@@ -149,7 +151,6 @@
 - [alt_bn128](https://github.com/tekkac/cairo-alt_bn128) - 验证 SNARKS 运算的椭圆曲线
 - [starknet-btc-lightclient](https://github.com/samlaf/starknet-btc-lightclient) - 比特币轻节点客户端
 - 用 Cairo 部署[现金流应用 SuperFluid](https://github.com/ayushm2003/basic-superfluid)
-- [全节点安装指南](https://twitter.com/StarkNet_ZH/status/1522111642498048000)
 - [StarKonquest](https://github.com/onlydustxyz/starkonquest) - Cairo 学习入门游戏
 - [用 Cairo 进行数组运算](https://github.com/omarespejel/cairo-lang/blob/add-array-operations/src/starkware/cairo/common/array_operations.cairo)
 - [Messaging Vyper](https://github.com/exp-table/starknet-messaging-vyper) - L1 <-> L2 通讯 Vyper 示例
@@ -186,12 +187,14 @@
 - [使用隐式参数构建物件导向程序设计模式](https://mirror.xyz/onlydust.eth/rR2Gt31kGQLlXZ27mLb_4Jtwh-cu8r6v51YSh-ECMw8)
 - [Cairo 生成证明命令行工具](https://github.com/maxgillett/giza/pull/1)
 - 开发工具 [Protostar 与 Nile 比较](https://mirror.xyz/onlydust.eth/1yoQch6XFpOjd9VVzZ48bZbpwtmLO2fOqYg7QxzW3DA)
+- [全节点安装指南](https://twitter.com/StarkNet_ZH/status/1522111642498048000)
 
 
 ## 生态
 
 - [StarkNet 生态](https://starknet-ecosystem.com) - [社区发起](https://github.com/419Labs/starknet-ecosystem.com) StarkNet 生态项目和团队汇总
 - [在建生态汇总](https://starkware.notion.site/Projects-Building-on-StarkNet-a33dee55778a4515a9be9bdae02ee682)
+- [CodeforDAO](https://github.com/CodeforDAO/cairo-contracts) - 开发者写作 DAO
 - [Pontis](https://github.com/42labs/Pontis) - Oricle | [网站](https://pontisoracle.xyz)
 
 
@@ -209,7 +212,7 @@
   - [StarkExchange: Fast Withdrawals using Cookie Jars](https://medium.com/starkware/starkexchange-fast-withdrawals-using-cookie-jars-88eefea6a11a)
   - [Conditional Transfers — The Key to Interoperability](https://medium.com/starkware/conditional-transfers-the-key-to-interoperability-2e1de044fb65)
 - [dAMM](https://medium.com/starkware/damm-decentralized-amm-59b329fb4cc3)
-- [DeFi pooling](https://medium.com/starkware/defi-pooling-1332ddebff21)
+- [DeFi pooling](https://medium.com/starkware/defi-pooling-1332ddebff21) | [文档](https://docs.starkware.co/starkex-v4/starkex-deep-dive/defi-pooling)
 - [数据可用](https://medium.com/starkware/volition-and-the-emerging-data-availability-spectrum-87e8bfa09bb)
 - [分形扩展：L2 <-> L3](https://medium.com/starkware/fractal-scaling-from-l2-to-l3-7fe238ecfb4f)
 
@@ -225,6 +228,7 @@
 - [Quark Blockchain](https://github.com/liamzebedee/quark-blockchain) - STARK 扩展方案
 - [Winterfell](https://github.com/novifinancial/winterfell) - STARK 证明者架构
 - [RISC ZERO](https://www.risczero.com/docs/tutorial-examples/what_is_risc_zero) - zkEVM
+
 
 
 ---
