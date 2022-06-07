@@ -194,7 +194,7 @@
 
 - [StarkNet 生态](https://starknet-ecosystem.com) - [社区发起](https://github.com/419Labs/starknet-ecosystem.com) StarkNet 生态项目和团队汇总
 - [在建生态汇总](https://starkware.notion.site/Projects-Building-on-StarkNet-a33dee55778a4515a9be9bdae02ee682)
-- [CodeforDAO](https://github.com/CodeforDAO/cairo-contracts) - 开发者写作 DAO
+- [CodeforDAO](https://github.com/CodeforDAO/cairo-contracts) - 开发者协作 DAO
 - [Pontis](https://github.com/42labs/Pontis) - Oricle | [网站](https://pontisoracle.xyz)
 
 
