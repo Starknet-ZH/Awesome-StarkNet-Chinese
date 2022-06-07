@@ -131,8 +131,9 @@
 - 通过 OpenZepplin Cairo 合约标准[部署机枪池代币 ERC-4626](https://github.com/OpenZeppelin/cairo-contracts/issues/277) | [代码](https://github.com/koloz193/ERC4626)
 - [Omni Account](https://github.com/happenwah/omni-account) - StarkNet 通用帐户
 - [StarkNet 钱包 API](https://github.com/myBraavos/get-starknet-wallet)
+- [starknet-libs](https://github.com/sekai-studio/starknet-libs) - Cairo 使用代码库示例
 - [Gradual Dutch](https://github.com/sambarnes/cairo-dutch/pull/1) - 荷兰拍 NFT 拍卖机制
-- [Soul Moment](https://github.com/ChecksFinance/soul-moment) - Cairo 语言 Soulbound Token (SBT)
+- [Soul Moment](https://github.com/ChecksFinance/soul-moment) - Cairo 语言的 Soulbound Token  (SBT)
 - [RICKS](https://github.com/FawadHa1der/ricks-cairo-contracts) - NFT 碎片化协议
 - Cairo 部署 [NFT 限价拍卖机制 CRISP](https://github.com/08351ty/CRISP-cairo)
 - [Pytest](https://github.com/TimNooren/pytest-cairo) - Python 测试 Cairo 和 StarkNet 
@@ -148,7 +149,11 @@
 - [Basic Solver](https://github.com/zoeAD/basic-solver) - DEX 聚合交易解码器
 - [用 Wintefell 部署 Cairo VM](https://github.com/maxgillett/giza)
 - [BLS 椭圆曲线](https://github.com/0xNonCents/multi-precision_cairo) | [BLS12-381](https://github.com/0xNonCents/cairo-bls12-381)
+- [Nistp256](https://github.com/spartucus/nistp256-cairo) - 用 Cairo 部署 NIST P-256
+- [cairo-aes](https://github.com/onurinanc/cairo-aes) - Cairo 部署 AES-128
 - [alt_bn128](https://github.com/tekkac/cairo-alt_bn128) - 验证 SNARKS 运算的椭圆曲线
+- [common-ec-cairo](https://github.com/EulerSmile/common-ec-cairo) - 普通椭圆曲线，可使用不同参数
+- [cairo-alt_bn128](https://github.com/tekkac/cairo-alt_bn128) - Cairo 部署 alt_bn128，可用来验证 SNARK 运算
 - [starknet-btc-lightclient](https://github.com/samlaf/starknet-btc-lightclient) - 比特币轻节点客户端
 - 用 Cairo 部署[现金流应用 SuperFluid](https://github.com/ayushm2003/basic-superfluid)
 - [StarKonquest](https://github.com/onlydustxyz/starkonquest) - Cairo 学习入门游戏
@@ -220,14 +225,15 @@
 
 ## 翻译文章
 
-- 《[密碼學證明的寒武紀大爆發](https://medium.com/taipei-ethereum-meetup/%E5%AF%86%E7%A2%BC%E5%AD%B8%E8%AD%89%E6%98%8E%E7%9A%84%E5%AF%92%E6%AD%A6%E7%B4%80%E5%A4%A7%E7%88%86%E7%99%BC-f3d5a5887c5d)》，译者：[Jerry Ho](https://twitter.com/29988122)  | [原文](https://nakamoto.com/cambrian-explosion-of-crypto-proofs/)
+- 《[密碼學證明的寒武紀大爆發](https://medium.com/taipei-ethereum-meetup/%E5%AF%86%E7%A2%BC%E5%AD%B8%E8%AD%89%E6%98%8E%E7%9A%84%E5%AF%92%E6%AD%A6%E7%B4%80%E5%A4%A7%E7%88%86%E7%99%BC-f3d5a5887c5d)》，译者：[Jerry Ho](https://twitter.com/29988122)  | [原文](https://medium.com/starkware/the-cambrian-explosion-of-crypto-proofs-7ac080ac9aed)
+- 《[STARK 算法解析](https://mp.weixin.qq.com/s/nBfL0MzqzOxGlSZgw6I85Q)》 | [Anatomy of a STARK](https://aszepieniec.github.io/stark-anatomy/)
 
 
 ## 其他
 
 - [Quark Blockchain](https://github.com/liamzebedee/quark-blockchain) - STARK 扩展方案
 - [Winterfell](https://github.com/novifinancial/winterfell) - STARK 证明者架构
-- [RISC ZERO](https://www.risczero.com/docs/tutorial-examples/what_is_risc_zero) - zkEVM
+- [RISC ZERO](https://www.risczero.com/docs/explainers/zkvm/what_is_risc_zero) - zkVM
 
 
 
