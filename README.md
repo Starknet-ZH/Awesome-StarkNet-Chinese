@@ -26,6 +26,7 @@
 
 
 
+
 ## 🏰 官方资源
 
 - [官网](https://starknet.io/)
@@ -55,13 +56,14 @@
 - [Cairo 合约向导](https://wizard.openzeppelin.com/cairo) - 交互式合约生成器
 - [Warp](https://github.com/NethermindEth/warp) - Solidity -> Cairo 转译器
 - [Amarna](https://github.com/crytic/amarna) - Trail of Bits 推出的[静态安全分析工具](https://blog.trailofbits.com/2022/04/20/amarna-static-analysis-for-cairo-programs)，用于识别错误代码和安全隐患
-- [Protostar](https://github.com/software-mansion/protostar) | [网站](https://docs.swmansion.com/protostar) - Cairo 智能合约开发、测试管理工具
+- [Protostar](https://github.com/software-mansion/protostar) | [网站](https://docs.swmansion.com/protostar) - [Software Mansion](https://twitter.com/swmansion) 开发的 Cairo 智能合约开发、测试管理工具
 - [Prototype](https://github.com/sambarnes/prototype) - 基于 Cairo 开发工具 Protostar 的项目开发模板
 - [cairo-glyph](https://github.com/sambarnes/cairo-glyph) - Cairo 管理器
-- [starknet-hardhat-plugin](https://github.com/Shard-Labs/starknet-hardhat-plugin) - Hardhat Starknet 工具
+- [starknet-hardhat-plugin](https://github.com/Shard-Labs/starknet-hardhat-plugin) - Hardhat 开发工具包
 - [cairo-jupyter](https://github.com/ankitchiplunkar/cairo-jupyter) - Cairo 合约语言 Jupyter 内核
 - [pre-commit-cairo](https://github.com/franalgaba/pre-commit-cairo) - Cairo git 代码管理工具
 - [Generator](https://github.com/onlydustxyz/generator-starknet) - 用 [@yeoman](https://twitter.com/yeoman) 的智能合约生成器
+- [StarkNet React](https://github.com/apibara/starknet-react) - StarkNet React hooks
 - [starknet-devnet](https://github.com/Shard-Labs/starknet-devnet) - Starknet 本地测试网
 - [Starkops](https://github.com/0xs34n/starkops) - TypeScript 语言 StarkNet 工具链命令行
 - [starknet-web3-rpc-adapter](https://github.com/software-mansion-labs/starknet-web3-rpc-adapter) - 向 StarkNet 传输信息的转接器应用
@@ -82,7 +84,7 @@
 - [DEX 聚合交易解码器](https://github.com/zoeAD/basic-solver)
 - [Get StarkNet](https://github.com/starknet-community-libs/get-starknet) - dApp 部署钱包代码库
 - [Cairo Streams](https://github.com/onlydustxyz/cairo-streams) - 数组流代码库
-- [Checkpoint](https://checkpoint.fyi/) - StarkNet 数据检索库 | [发布](https://twitter.com/StarkNet_ZH/status/1536980057893535744) | [文档](https://docs.checkpoint.fyi/)
+- [Caigo](https://github.com/dontpanicdao/caigo) - Golang 代码库
 
 
 ## 🗂 官方 GitHub 库
@@ -115,7 +117,6 @@
 - [Symbonstark](https://symbonstark.surge.sh) - Cairo 学习 | [GitHub](https://github.com/JejomStark/SymbOnStark)
 - [Perama 的 Cairo 使用示例](https://perama-v.github.io/cairo/by-example)
 - [Starklings](https://github.com/onlydustxyz/starklings) - StarkNet 交互式开发指南
-- 《[深入理解zk-STARK证明系统](https://mp.weixin.qq.com/s/9MkDahDq2mJulzQpYvDFEA)》（中文）| 作者：[@trapdoor_tech](https://twitter.com/trapdoor_tech) 
 - [Perama 博客](https://perama-v.github.io/cairo/intro/) - StarkNet / Cairo 学习笔记
 - [@RoboTeddy StarkNet 开发实操心得](https://hackmd.io/@RoboTeddy/BJZFu56wF)
 - [StarkWare 开发笔记](https://seen-joke-82c.notion.site/StarkWare-Development-965f54711eb84dc79f3b61f22df9e383)
@@ -202,6 +203,8 @@
 - [StarkNet 生态](https://starknet-ecosystem.com) - [社区发起](https://github.com/419Labs/starknet-ecosystem.com) StarkNet 生态项目和团队汇总
 - [在建生态汇总](https://starkware.notion.site/Projects-Building-on-StarkNet-a33dee55778a4515a9be9bdae02ee682)
 - [CodeforDAO](https://github.com/CodeforDAO/cairo-contracts) - 开发者协作 DAO
+- [Starknet Indexer](https://github.com/olegabu/starknet-archive-docs#starknet-indexer) - [官网](starknetindex.com)
+- [Checkpoint](https://checkpoint.fyi/) - Snapshot 提供的 StarkNet 数据检索库 | [发布](https://twitter.com/StarkNet_ZH/status/1536980057893535744) | [文档](https://docs.checkpoint.fyi/)
 - [Pontis](https://pontisoracle.xyz) - Oricle | [GitHub](https://github.com/42labs/Pontis)
 - [zkPad](https://zkpad.io) - 众筹和 launchpad 平台 | [GitHub](https://github.com/ZkPad-Labs/zkpad-contracts)
 
@@ -225,11 +228,11 @@
 - [分形扩展：L2 <-> L3](https://medium.com/starkware/fractal-scaling-from-l2-to-l3-7fe238ecfb4f)
 
 
-
-## 🔑 翻译文章
+## 🔑 文章合集
 
 - 《[密碼學證明的寒武紀大爆發](https://medium.com/taipei-ethereum-meetup/%E5%AF%86%E7%A2%BC%E5%AD%B8%E8%AD%89%E6%98%8E%E7%9A%84%E5%AF%92%E6%AD%A6%E7%B4%80%E5%A4%A7%E7%88%86%E7%99%BC-f3d5a5887c5d)》，译者：[Jerry Ho](https://twitter.com/29988122)  | [原文](https://medium.com/starkware/the-cambrian-explosion-of-crypto-proofs-7ac080ac9aed)
-- 《[STARK 算法解析](https://mp.weixin.qq.com/s/nBfL0MzqzOxGlSZgw6I85Q)》 | [Anatomy of a STARK](https://aszepieniec.github.io/stark-anatomy/)
+- [深入理解 zk-STARK 证明系统](https://trapdoor-tech.github.io/zkstark-book/AIR/air.html)，作者：[@trapdoor_tech](https://twitter.com/trapdoor_tech) 
+- 《[STARK 算法解析](https://mp.weixin.qq.com/s/nBfL0MzqzOxGlSZgw6I85Q)》，译者：zkCloak | [Anatomy of a STARK](https://aszepieniec.github.io/stark-anatomy/)
 
 
 ## 💻 其他
