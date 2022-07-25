@@ -25,9 +25,6 @@
 </div>
 
 
-
-
-
 ## 🏰 官方资源
 
 - [官网](https://starknet.io/)
@@ -43,6 +40,7 @@
 - [Cairo Playground](https://www.cairo-lang.org/playground/) - 浏览器 Cairo IDE、范例和谜题
 - [StarkNet Voting Workshop](https://starkware.notion.site/starkware/StarkNet-Voting-Workshop-b61ef5f4a62d45af86892cba3158f7e6) - 投票 dApp 开发指南
 - [YouTube channel](https://www.youtube.com/channel/UCnDWguR8mE2oDBsjhQkgbvg/playlists) - StarkWare 官方 YouTube 频道
+- [STARK 验证合约审计报告](https://github.com/starkware-libs/starkex-contracts/blob/master/audit/EVM_STARK_Verifier_v4.0_Audit_Report.pdf)
 
 
 ##  ⚡️ 生态工具
@@ -58,6 +56,7 @@
 - [Warp](https://github.com/NethermindEth/warp) - Solidity -> Cairo 转译器
 - [Skyro](https://github.com/skyro-compiler/skyro) -  [Idris2](https://github.com/idris-lang/Idris2) -> Cairo 转译器
 - [Amarna](https://github.com/crytic/amarna) - Trail of Bits 推出的[静态安全分析工具](https://blog.trailofbits.com/2022/04/20/amarna-static-analysis-for-cairo-programs)，用于识别错误代码和安全隐患
+- [Medjai](https://github.com/Veridise/Medjai) - Cairo 符号执行工具。用以检测 Bug | [使用说明](https://medium.com/veridise/medjai-protecting-cairo-code-from-bugs-d82ec852cd45)
 - [Protostar](https://github.com/software-mansion/protostar) | [网站](https://docs.swmansion.com/protostar) - [Software Mansion](https://twitter.com/swmansion) 开发的 Cairo 智能合约开发、测试管理工具
 - [Prototype](https://github.com/sambarnes/prototype) - 基于 Cairo 开发工具 Protostar 的项目开发模板
 - [cairo-glyph](https://github.com/sambarnes/cairo-glyph) - Cairo 管理器
@@ -147,7 +146,7 @@
 - [starknet-multisig](https://github.com/eqlabs/starknet-multisig) - 多签部署 | [使用](http://starknet-multisig.vercel.app)
 - [cairo-multisig](https://github.com/sambarnes/cairo-multisig) - 多签部署
 - [安装 Hardhat 写 Cairo 测试](https://github.com/gaetbout/starknet-stack)
-- [Cairo Base-64](https://github.com/dhruvkelawala/cairo-base64)
+- [Cairo Base-64](https://github.com/dhruvkelawala/cairo-base64) - Base64 编码的多字符 ASCII Felt 库
 - [Flashloan](https://github.com/tohrnii/flashloan-starknet)
 - [Oriac](https://github.com/xJonathanLEI/oriac) - Rust 部署 Cairo VM
 - [链上存取控制合约](https://github.com/419Labs/access-controller-contracts) - 卡槽模式，用以链上注册 | by [@alpharoad_fi](https://twitter.com/alpharoad_fi)
@@ -165,13 +164,14 @@
 - [StarKonquest](https://github.com/onlydustxyz/starkonquest) - Cairo 学习入门游戏
 - [用 Cairo 进行数组运算](https://github.com/omarespejel/cairo-lang/blob/add-array-operations/src/starkware/cairo/common/array_operations.cairo)
 - [Messaging Vyper](https://github.com/exp-table/starknet-messaging-vyper) - L1 <-> L2 通讯 Vyper 示例
-- [开发框架比较：protostar VS nile](https://github.com/onlydustxyz/protostar-vs-nile)
-- [Cairo 开发框架比较](https://github.com/immutable/imx-starknet/issues/7)
 - [felt-packing](https://github.com/gaetbout/starknet-felt-packing) - felt 字段元素封装
 - [starknet-utils](https://github.com/strangerstork/starknet-utils) - felt 封装
 - [Bulletproof](https://github.com/Lev-Stambler/bulletproof-cairo) - StarkNet 部署 Bulletproofs 隐私方案
 - [StarkVest](https://github.com/abdelhamidbakhta/starkvest) - ERC20 代币分发 (vesting) 合约库
 - [StarkNet USD](https://github.com/orkunkilic/starknet-usd) - 利用 L1 <> L2 通讯桥部署的 L2 稳定币协议
+- [Thoth](https://github.com/FuzzingLabs/thoth) - 字节码反汇编程序，可生成调用流程图与控制流程图
+- [starknet-rs](https://github.com/xJonathanLEI/starknet-rs) - StarkNet Rust 代码库
+- [Khepri StarkNet](https://github.com/bitcoin-stark/khepri-starknet) - 利用 STARK zkp 的比特币轻节点
 
 
 ## 🧲 教学内容
@@ -195,6 +195,7 @@
 
 ## 🔆 开发技巧
 
+- [Protostar 编写 StarkNet 智能合约的全开发周期教程](https://blog.swmansion.com/testing-starknet-contracts-made-easy-with-protostar-2ecdad3c9133) by [Software Mansion](https://twitter.com/swmansion)
 - [如何部署 Cairo 开发环境](https://th0rgal.medium.com/the-easiest-way-to-setup-a-cairo-dev-environment-8f2a63610d46)
 - [开发部署指南](https://medium.com/@0xexomonk/starknet-and-cairo-developer-ultimate-intro-guide-b97f2d08a1e5)
 - StarkNet [终极开发环境](https://medium.com/starknet-edu/the-ultimate-starknet-dev-environment-716724aef4a7)
@@ -202,8 +203,11 @@
 - [设置合约在特定时段切换不同模式](https://github.com/0xtonysprocket/zz_simple_liquidity_pool/blob/main/contracts/Time_window_base.cairo)
 - [使用隐式参数构建物件导向程序设计模式](https://mirror.xyz/onlydust.eth/rR2Gt31kGQLlXZ27mLb_4Jtwh-cu8r6v51YSh-ECMw8)
 - [Cairo 生成证明命令行工具](https://github.com/maxgillett/giza/pull/1)
+- [开发框架比较：protostar VS nile](https://github.com/onlydustxyz/protostar-vs-nile)
+- [Cairo 开发框架比较](https://github.com/immutable/imx-starknet/issues/7)
 - 开发工具 [Protostar 与 Nile 比较](https://mirror.xyz/onlydust.eth/1yoQch6XFpOjd9VVzZ48bZbpwtmLO2fOqYg7QxzW3DA)
 - [全节点安装指南](https://twitter.com/StarkNet_ZH/status/1522111642498048000)
+- [Infura 或 Alchemy 安装节点](https://mirror.xyz/onlydust.eth/5-AwlDVo6ROXLRQzWDnMLCVVuVEU98koOMXn_wqV_Hk)
 
 
 ## 🧬 生态
@@ -241,7 +245,7 @@
 ## 🔑 文章合集
 
 - 《[密碼學證明的寒武紀大爆發](https://medium.com/taipei-ethereum-meetup/%E5%AF%86%E7%A2%BC%E5%AD%B8%E8%AD%89%E6%98%8E%E7%9A%84%E5%AF%92%E6%AD%A6%E7%B4%80%E5%A4%A7%E7%88%86%E7%99%BC-f3d5a5887c5d)》，译者：[Jerry Ho](https://twitter.com/29988122)  | [原文](https://medium.com/starkware/the-cambrian-explosion-of-crypto-proofs-7ac080ac9aed)
-- [深入理解 zk-STARK 证明系统](https://trapdoor-tech.github.io/zkstark-book/AIR/air.html)，作者：[@trapdoor_tech](https://twitter.com/trapdoor_tech) 
+- [深入理解 zk-STARK 证明系统](https://trapdoor-tech.github.io/zkstark-book/AIR/air.html)，作者：[@trapdoor_tech](https://twitter.com/trapdoor_tech)
 - 《[STARK 算法解析](https://mp.weixin.qq.com/s/nBfL0MzqzOxGlSZgw6I85Q)》，译者：zkCloak | [Anatomy of a STARK](https://aszepieniec.github.io/stark-anatomy/)
 
 
@@ -250,7 +254,6 @@
 - [Quark Blockchain](https://github.com/liamzebedee/quark-blockchain) - STARK 扩展方案
 - [Winterfell](https://github.com/novifinancial/winterfell) - STARK 证明者架构
 - [RISC ZERO](https://www.risczero.com/docs/explainers/zkvm/what_is_risc_zero) - zkVM
-
 
 
 ---
