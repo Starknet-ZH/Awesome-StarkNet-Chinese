@@ -25,6 +25,7 @@
 </div>
 
 
+
 ## 🏰 官方资源
 
 - [官网](https://starknet.io/)
@@ -132,6 +133,7 @@
 - [Cairo by Example](https://cairo-by-example.org/) - Cairo 学习范例
 - [Cairo 和 StarkNet 学习笔记](https://david-barreto.com/) | 作者：[David Barreto](https://twitter.com/barretodavid)
 - [StarkNet Developer Guide](https://www.devpill.me/docs/starknet-development/introduction/) | 作者：[devpill.me](https://www.devpill.me/)
+- [Cairo 和 StarkNet 安全](https://ctrlc03.github.io/#signature-replay-attacks) | 作者：[ctrlc03.eth](https://twitter.com/ctrl_c3)
 
 
 
@@ -235,6 +237,9 @@
 - [Fossil](https://docs.oiler.network/oiler-network/products/fossil/getting-started) - Starknet L2 Verifier 验证合约和链上预言机 by [@OilerNetwork](https://twitter.com/OilerNetwork) | [API](https://fossil.oiler.network/docs) | [官宣](https://medium.com/oiler-network/introducing-fossil-ce4c23ad17c4)
 - [zkPad](https://zkpad.io) - 众筹和 launchpad 平台 | [GitHub](https://github.com/ZkPad-Labs/zkpad-contracts)
 - [CodeforDAO](https://github.com/CodeforDAO/cairo-contracts) - 开发者协作 DAO
+- [RockyBot](https://github.com/Modulus-Labs/RockyBot) - 链上机器学习人工智能交易机器人
+- [Starknet Recovery Service](https://github.com/Starknet-Recovery-Service) - 钱包恢复服务（[StarkNet House](https://twitter.com/StarknetHouse) 黑客松第一名）
+- [Tic tac](https://github.com/aymericdelab/cairo-matchbox-hackathon) - 链上 AI 代理（[MatchboxDAO](https://twitter.com/matchbox_dao) 黑客松第一名）
 
 
 ## 📱 应用
@@ -263,6 +268,7 @@
 - 《[密碼學證明的寒武紀大爆發](https://medium.com/taipei-ethereum-meetup/%E5%AF%86%E7%A2%BC%E5%AD%B8%E8%AD%89%E6%98%8E%E7%9A%84%E5%AF%92%E6%AD%A6%E7%B4%80%E5%A4%A7%E7%88%86%E7%99%BC-f3d5a5887c5d)》，译者：[Jerry Ho](https://twitter.com/29988122)  | [原文](https://medium.com/starkware/the-cambrian-explosion-of-crypto-proofs-7ac080ac9aed)
 - [深入理解 zk-STARK 证明系统](https://trapdoor-tech.github.io/zkstark-book/AIR/air.html)，作者：[@trapdoor_tech](https://twitter.com/trapdoor_tech)
 - 《[STARK 算法解析](https://mp.weixin.qq.com/s/nBfL0MzqzOxGlSZgw6I85Q)》，译者：zkCloak | [Anatomy of a STARK](https://aszepieniec.github.io/stark-anatomy/)
+- 《[帐户抽象随想](https://mirror.xyz/sylve.eth/Un2EYccIpfE3BDevwOf9hWWcSn2NsiRIivZlBLNX7Ag)》
 
 
 ## 💻 其他
@@ -270,6 +276,7 @@
 - [Quark Blockchain](https://github.com/liamzebedee/quark-blockchain) - STARK 扩展方案
 - [Winterfell](https://github.com/novifinancial/winterfell) - STARK 证明者架构
 - [RISC ZERO](https://www.risczero.com/docs/explainers/zkvm/what_is_risc_zero) - zkVM
+
 
 
 ---
