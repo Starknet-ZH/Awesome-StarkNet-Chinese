@@ -55,8 +55,10 @@
   - [帐户抽象](https://github.com/OpenZeppelin/cairo-contracts/discussions/41)
   - [Nile](https://github.com/OpenZeppelin/nile) - CLI 开发工具
 - [Cairo 合约向导](https://wizard.openzeppelin.com/cairo) - 交互式合约生成器
-- [Warp](https://github.com/NethermindEth/warp) - Solidity -> Cairo 转译器
-- [Skyro](https://github.com/skyro-compiler/skyro) -  [Idris2](https://github.com/idris-lang/Idris2) -> Cairo 转译器
+- [Warp](https://github.com/NethermindEth/warp) - Solidity <-> Cairo 转译器
+- [Vyro](https://github.com/tserg/vyro) - Vyper <-> Cairo 转译器
+- [Skyro](https://github.com/skyro-compiler/skyro) -  [Idris2](https://github.com/idris-lang/Idris2) <-> Cairo 转译器
+- [Starkscan](https://starkscan.co/) - 区块链浏览器
 - [Voyager](https://voyager.online) - 区块链浏览器
 - [Amarna](https://github.com/crytic/amarna) - Trail of Bits 推出的[静态安全分析工具](https://blog.trailofbits.com/2022/04/20/amarna-static-analysis-for-cairo-programs)，用于识别错误代码和安全隐患
 - [Medjai](https://github.com/Veridise/Medjai) - Cairo 符号执行工具。用以检测 Bug | [使用说明](https://medium.com/veridise/medjai-protecting-cairo-code-from-bugs-d82ec852cd45)
@@ -93,6 +95,9 @@
 - [Tayt](https://github.com/crytic/tayt) - 智能合约模糊测试工具
 - [Ape](https://github.com/ApeWorX/ape) - [ApeWorX](https://twitter.com/ApeFramework) 开发的智能合约开发工具
 - [starknet-rs](https://github.com/xJonathanLEI/starknet-rs) - StarkNet Rust 代码库
+- [vscode-cairo-extension](https://github.com/qd-qd/vscode-cairo-extension) - Cairo vscode 开发插件
+- [Interface Generator](https://github.com/msaug/starknet-interface-generator) - Cairo 合约接口生成工具
+- [Sahara](https://github.com/boray/sahara) - [合约类与合约库查询工具](sahara-jet.vercel.app)
 
 
 
@@ -240,6 +245,7 @@
 - [RockyBot](https://github.com/Modulus-Labs/RockyBot) - 链上机器学习人工智能交易机器人
 - [Starknet Recovery Service](https://github.com/Starknet-Recovery-Service) - 钱包恢复服务（[StarkNet House](https://twitter.com/StarknetHouse) 黑客松第一名）
 - [Tic tac](https://github.com/aymericdelab/cairo-matchbox-hackathon) - 链上 AI 代理（[MatchboxDAO](https://twitter.com/matchbox_dao) 黑客松第一名）
+- [GoL2-Contract](https://github.com/yuki-wtf/GoL2-Contract) - [GOL2](https://www.gol2.io/) 全链游戏
 
 
 ## 📱 应用
@@ -276,6 +282,7 @@
 - [Quark Blockchain](https://github.com/liamzebedee/quark-blockchain) - STARK 扩展方案
 - [Winterfell](https://github.com/novifinancial/winterfell) - STARK 证明者架构
 - [RISC ZERO](https://www.risczero.com/docs/explainers/zkvm/what_is_risc_zero) - zkVM
+
 
 
 
