@@ -28,7 +28,7 @@
 
 ## 🏰 官方资源
 
-- [官网](https://starknet.io/)
+- [官网](https://starkware.co/)
 - [StarkNet 概况](https://starknet.io/)
 - [StarkNet 文档](https://docs.starknet.io)
 - [StarkNet 开发指南](https://starknet.io/building-on-starknet/)
@@ -98,6 +98,9 @@
 - [vscode-cairo-extension](https://github.com/qd-qd/vscode-cairo-extension) - Cairo vscode 开发插件
 - [Interface Generator](https://github.com/msaug/starknet-interface-generator) - Cairo 合约接口生成工具
 - [Sahara](https://github.com/boray/sahara) - [合约类与合约库查询工具](sahara-jet.vercel.app)
+- [kaaper](https://github.com/onlydustxyz/kaaper) - Cairo 项目文档生成器
+- [Cairo Sha256](https://github.com/cartridge-gg/cairo-sha256) - SHA256 生成器
+- [Nile Coverage](https://github.com/ericnordelo/nile-coverage) - Cairo 合约覆盖率报告插件
 
 
 
@@ -155,7 +158,7 @@
 - [StarkNet 钱包 API](https://github.com/myBraavos/get-starknet-wallet)
 - [starknet-libs](https://github.com/sekai-studio/starknet-libs) - Cairo 使用代码库示例
 - [Soul Moment](https://github.com/ChecksFinance/soul-moment) - Cairo 语言的 Soulbound Token  (SBT)
-- [Gradual Dutch](https://github.com/sambarnes/cairo-dutch/pull/1) - 荷兰拍 NFT 拍卖机制
+- [Cairo Dutch](https://github.com/sambarnes/cairo-dutch) - NFT 荷兰拍机制
 - [RICKS](https://github.com/FawadHa1der/ricks-cairo-contracts) - NFT 碎片化协议
 - Cairo 部署 [NFT 限价拍卖机制 CRISP](https://github.com/08351ty/CRISP-cairo)
 - [starknet-boilerplate](https://github.com/threepwave/starknet-boilerplate) - 使用 starknetjs 和 nile 部署 starknet/cairo 项目
@@ -188,7 +191,11 @@
 - [Thoth](https://github.com/FuzzingLabs/thoth) - 字节码反汇编程序，可生成调用流程图与控制流程图
 - [Cairo Wadray](https://github.com/lindy-labs/cairo-wadray) - 利用 felt 的固定小数点算数公式
 - [Cairo Math 64x61](https://github.com/influenceth/cairo-math-64x61) - Cairo 64x61 固定点数
+- [cairo-accesscontrol](https://github.com/lindy-labs/cairo-accesscontrol) - 会员访问控制合约
 - [Khepri StarkNet](https://github.com/bitcoin-stark/khepri-starknet) - 利用 STARK zkp 的比特币轻节点
+- [Starknet Staking](https://github.com/pedrobergamini/starknet-staking) - 利用 L1 <> L2 通讯实现质押奖励
+- [Linear Regression](https://github.com/trangnv/linear-regression-starknet) - 采用 commit-reveal 机制的机器学习模型
+
 
 
 ## 🧲 教学内容
@@ -200,6 +207,7 @@
 - StarkNet JS - [视频](https://youtu.be/gqj0ENOE0EE) | [Slide](https://slideshare.net/Neven6/starknet-js)
 
 
+
 ## 💬 社区讨论
 
 - [费用机制](https://community.starknet.io/t/fees-in-starknet-alpha/286) | [文档](https://starknet.io/documentation/fee-mechanism/#How) | [博客](https://www.ethereum.cn/Layer2/fees-in-starknet-alpha)
@@ -208,6 +216,7 @@
 - [Cairo 合约扩展模式](https://github.com/OpenZeppelin/cairo-contracts/blob/main/docs/Extensibility.md) | [社区讨论](https://community.starknet.io/t/contract-extensibility-pattern/210?u=martriay) | [Twitter](https://twitter.com/StarkNet_ZH/status/1521704816916922368)
 - [AAVE <> StarkNet 讨论](https://governance.aave.com/t/request-for-approval-aave-starkware-phase-i/7145)
 - [MakerDAO x StarkNet 方案讨论](https://forum.makerdao.com/t/mip39c2-sp19-adding-the-starknet-engineering-core-unit-sne-001/9745)
+
 
 
 ## 🔆 开发技巧
@@ -230,6 +239,7 @@
 - [Infura 或 Alchemy 安装节点](https://mirror.xyz/onlydust.eth/5-AwlDVo6ROXLRQzWDnMLCVVuVEU98koOMXn_wqV_Hk)
 
 
+
 ## 🧬 生态
 
 - [StarkNet 生态](https://starknet-ecosystem.com) - [社区发起](https://github.com/419Labs/starknet-ecosystem.com) StarkNet 生态项目和团队汇总
@@ -243,9 +253,10 @@
 - [zkPad](https://zkpad.io) - 众筹和 launchpad 平台 | [GitHub](https://github.com/ZkPad-Labs/zkpad-contracts)
 - [CodeforDAO](https://github.com/CodeforDAO/cairo-contracts) - 开发者协作 DAO
 - [RockyBot](https://github.com/Modulus-Labs/RockyBot) - 链上机器学习人工智能交易机器人
-- [Starknet Recovery Service](https://github.com/Starknet-Recovery-Service) - 钱包恢复服务（[StarkNet House](https://twitter.com/StarknetHouse) 黑客松第一名）
+- [Switch](https://github.com/Starknet-Recovery-Service) - 钱包恢复服务（[StarkNet House](https://twitter.com/StarknetHouse) 黑客松第一名）
 - [Tic tac](https://github.com/aymericdelab/cairo-matchbox-hackathon) - 链上 AI 代理（[MatchboxDAO](https://twitter.com/matchbox_dao) 黑客松第一名）
 - [GoL2-Contract](https://github.com/yuki-wtf/GoL2-Contract) - [GOL2](https://www.gol2.io/) 全链游戏
+- [StarkNet Plugin Account](https://github.com/argentlabs/starknet-plugin-account) - StarkNet 帐户合约插件标准
 
 
 ## 📱 应用
@@ -255,6 +266,7 @@
 - [Demux](https://github.com/smchala/demultiplexer-wallet) - 流支付智能合约钱包
 - [Opera 插件和手机钱包](https://www.opera.com/crypto/next) - 目前 Deversifi 可使用
 - [Invisibl3](https://twitter.com/StarkNet_ZH/status/1544163777624817666) - [ZigZag](https://twitter.com/ZigZagExchange) 开发的隐私插件
+
 
 
 ## ⚗️ 研究
@@ -273,8 +285,12 @@
 
 - 《[密碼學證明的寒武紀大爆發](https://medium.com/taipei-ethereum-meetup/%E5%AF%86%E7%A2%BC%E5%AD%B8%E8%AD%89%E6%98%8E%E7%9A%84%E5%AF%92%E6%AD%A6%E7%B4%80%E5%A4%A7%E7%88%86%E7%99%BC-f3d5a5887c5d)》，译者：[Jerry Ho](https://twitter.com/29988122)  | [原文](https://medium.com/starkware/the-cambrian-explosion-of-crypto-proofs-7ac080ac9aed)
 - [深入理解 zk-STARK 证明系统](https://trapdoor-tech.github.io/zkstark-book/AIR/air.html)，作者：[@trapdoor_tech](https://twitter.com/trapdoor_tech)
+- [STARKs, Part I: Proofs with Polynomials (vitalik.ca)](https://vitalik.ca/general/2017/11/09/starks_part_1.html)
+- [STARKs, Part II: Thank Goodness It's FRI-day (vitalik.ca)](https://vitalik.ca/general/2017/11/22/starks_part_2.html)
+- [STARKs, Part III: Into the Weeds (vitalik.ca)](https://vitalik.ca/general/2018/07/21/starks_part_3.html)
 - 《[STARK 算法解析](https://mp.weixin.qq.com/s/nBfL0MzqzOxGlSZgw6I85Q)》，译者：zkCloak | [Anatomy of a STARK](https://aszepieniec.github.io/stark-anatomy/)
 - 《[帐户抽象随想](https://mirror.xyz/sylve.eth/Un2EYccIpfE3BDevwOf9hWWcSn2NsiRIivZlBLNX7Ag)》
+
 
 
 ## 💻 其他
@@ -282,8 +298,6 @@
 - [Quark Blockchain](https://github.com/liamzebedee/quark-blockchain) - STARK 扩展方案
 - [Winterfell](https://github.com/novifinancial/winterfell) - STARK 证明者架构
 - [RISC ZERO](https://www.risczero.com/docs/explainers/zkvm/what_is_risc_zero) - zkVM
-
-
 
 
 ---
