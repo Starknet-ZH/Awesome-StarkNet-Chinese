@@ -26,6 +26,7 @@
 
 
 
+
 ## 🏰 官方资源
 
 - [官网](https://starkware.co/)
@@ -63,6 +64,7 @@
 - [Amarna](https://github.com/crytic/amarna) - Trail of Bits 推出的[静态安全分析工具](https://blog.trailofbits.com/2022/04/20/amarna-static-analysis-for-cairo-programs)，用于识别错误代码和安全隐患
 - [Medjai](https://github.com/Veridise/Medjai) - Cairo 符号执行工具。用以检测 Bug | [使用说明](https://medium.com/veridise/medjai-protecting-cairo-code-from-bugs-d82ec852cd45)
 - [Protostar](https://github.com/software-mansion/protostar) | [网站](https://docs.swmansion.com/protostar) - [Software Mansion](https://twitter.com/swmansion) 开发的 Cairo 智能合约开发、测试管理工具
+- [Cairo Foundry](https://github.com/onlydustxyz/cairo-foundry) - 类 Foundry 的 StarkNet 合约框架
 - [Prototype](https://github.com/sambarnes/prototype) - 基于 Cairo 开发工具 Protostar 的项目开发模板
 - [starknet.py](https://github.com/software-mansion/starknet.py) - Python SDK 代码库
 - [starknet.js](https://github.com/0xs34n/starknet.js) - StarkNet JavaScript 代码库
@@ -83,6 +85,7 @@
 - [Giza](https://github.com/maxgillett/giza) - Cairo VM 运行的证明和验证代码库
 - [Felucca](https://github.com/franalgaba/felucca) - 代码依赖性管理工具 Felucca
 - [Cairo rs](https://github.com/lambdaclass/cairo-rs) - Cairo Rust VM
+- [starknet-rs](https://github.com/xJonathanLEI/starknet-rs) - StarkNet Rust 代码库
 - [StarkNet 数据仓库 (“SDW”)](https://tokenflow.live/blog/edw-open)
 - [ZigZag StarkNet 预言机](https://github.com/ZigZagExchange/starknet-oracle)
 - [React + Redux 库](https://github.com/ruleslabs/starknet-redux-multicall) - 通过批量缓存调用，撷取每个区块的状态
@@ -94,13 +97,13 @@
 - [Apibara](https://github.com/apibara/apibara) - dApp 开发工具和 API
 - [Tayt](https://github.com/crytic/tayt) - 智能合约模糊测试工具
 - [Ape](https://github.com/ApeWorX/ape) - [ApeWorX](https://twitter.com/ApeFramework) 开发的智能合约开发工具
-- [starknet-rs](https://github.com/xJonathanLEI/starknet-rs) - StarkNet Rust 代码库
 - [vscode-cairo-extension](https://github.com/qd-qd/vscode-cairo-extension) - Cairo vscode 开发插件
 - [Interface Generator](https://github.com/msaug/starknet-interface-generator) - Cairo 合约接口生成工具
 - [Sahara](https://github.com/boray/sahara) - [合约类与合约库查询工具](sahara-jet.vercel.app)
 - [kaaper](https://github.com/onlydustxyz/kaaper) - Cairo 项目文档生成器
 - [Cairo Sha256](https://github.com/cartridge-gg/cairo-sha256) - SHA256 生成器
 - [Nile Coverage](https://github.com/ericnordelo/nile-coverage) - Cairo 合约覆盖率报告插件
+- [STARK Utils](www.stark-utils.xyz) | [代码库](https://github.com/gaetbout/stark-utils) - 开发者转换、哈希计算、签名工具
 
 
 
@@ -197,7 +200,6 @@
 - [Linear Regression](https://github.com/trangnv/linear-regression-starknet) - 采用 commit-reveal 机制的机器学习模型
 
 
-
 ## 🧲 教学内容
 
 - STARK 有效性证明 - [视频](https://youtu.be/E4YO11rHMhw) | [Slide](https://slideshare.net/TinaBregovi/starknet-intro)
@@ -205,7 +207,6 @@
 - [StarkNet ERC-20/721](https://github.com/starknet-edu) - [视频](https://youtu.be/PJWIgIoj5kw) | [Slide](https://slideshare.net/TinaBregovi/starknet-erc20-erc721)
 - [钱包、帐户抽象和语义](https://community.starknet.io/t/starknet-account-abstraction-model-part-2/839) - [视频](https://youtu.be/Vgd41wf7-bE) | [Slide](https://slideshare.net/TinaBregovi/starkware-account-abstraction)
 - StarkNet JS - [视频](https://youtu.be/gqj0ENOE0EE) | [Slide](https://slideshare.net/Neven6/starknet-js)
-
 
 
 ## 💬 社区讨论
@@ -216,7 +217,6 @@
 - [Cairo 合约扩展模式](https://github.com/OpenZeppelin/cairo-contracts/blob/main/docs/Extensibility.md) | [社区讨论](https://community.starknet.io/t/contract-extensibility-pattern/210?u=martriay) | [Twitter](https://twitter.com/StarkNet_ZH/status/1521704816916922368)
 - [AAVE <> StarkNet 讨论](https://governance.aave.com/t/request-for-approval-aave-starkware-phase-i/7145)
 - [MakerDAO x StarkNet 方案讨论](https://forum.makerdao.com/t/mip39c2-sp19-adding-the-starknet-engineering-core-unit-sne-001/9745)
-
 
 
 ## 🔆 开发技巧
@@ -237,7 +237,6 @@
 - 开发工具 [Protostar 与 Nile 比较](https://mirror.xyz/onlydust.eth/1yoQch6XFpOjd9VVzZ48bZbpwtmLO2fOqYg7QxzW3DA)
 - [全节点安装指南](https://twitter.com/StarkNet_ZH/status/1522111642498048000)
 - [Infura 或 Alchemy 安装节点](https://mirror.xyz/onlydust.eth/5-AwlDVo6ROXLRQzWDnMLCVVuVEU98koOMXn_wqV_Hk)
-
 
 
 ## 🧬 生态
@@ -268,7 +267,6 @@
 - [Invisibl3](https://twitter.com/StarkNet_ZH/status/1544163777624817666) - [ZigZag](https://twitter.com/ZigZagExchange) 开发的隐私插件
 
 
-
 ## ⚗️ 研究
 
 - 快速提款
@@ -280,7 +278,6 @@
 - [分形扩展：L2 <-> L3](https://medium.com/starkware/fractal-scaling-from-l2-to-l3-7fe238ecfb4f)
 
 
-
 ## 🔑 文章合集
 
 - 《[密碼學證明的寒武紀大爆發](https://medium.com/taipei-ethereum-meetup/%E5%AF%86%E7%A2%BC%E5%AD%B8%E8%AD%89%E6%98%8E%E7%9A%84%E5%AF%92%E6%AD%A6%E7%B4%80%E5%A4%A7%E7%88%86%E7%99%BC-f3d5a5887c5d)》，译者：[Jerry Ho](https://twitter.com/29988122)  | [原文](https://medium.com/starkware/the-cambrian-explosion-of-crypto-proofs-7ac080ac9aed)
@@ -290,7 +287,6 @@
 - [STARKs, Part III: Into the Weeds (vitalik.ca)](https://vitalik.ca/general/2018/07/21/starks_part_3.html)
 - 《[STARK 算法解析](https://mp.weixin.qq.com/s/nBfL0MzqzOxGlSZgw6I85Q)》，译者：zkCloak | [Anatomy of a STARK](https://aszepieniec.github.io/stark-anatomy/)
 - 《[帐户抽象随想](https://mirror.xyz/sylve.eth/Un2EYccIpfE3BDevwOf9hWWcSn2NsiRIivZlBLNX7Ag)》
-
 
 
 ## 💻 其他
