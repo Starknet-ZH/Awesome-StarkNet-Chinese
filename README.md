@@ -18,12 +18,11 @@
 
   <p align="center">This repository is forked from <a href="https://github.com/gakonst/awesome-starknet">Awesome StarkNet</a></p>
   <p align="center">本文档汇聚<a href="https://medium.com/starkware/starknet-alpha-is-coming-to-mainnet-b825829eaf32"> StarkNet </a>资源、工具、代码库、生态、应用等内容。由<a href="https://twitter.com/StarkNet_ZH">「StarkNet 中文」</a>编撰。</p>
-  <p align="center">欢迎大家按照<a href="CONTRIBUTING.md">《贡献者指南》</a>为本库 PR 贡献。</p>
+  <p align="center">欢迎加入我们或按照<a href="CONTRIBUTING.md">《贡献者指南》</a>为本库 PR 贡献。</p>
   
-  <p align="center">找到我们：<a href="https://twitter.com/StarkNet_ZH"> Twitter </a> | <a href="https://mirror.xyz/starknet-zh.eth"> Mirror Blog</a> | <a href="https://starknetzh.substack.com"> Substack 日报/周报</a>  |  <a href="https://t.me/starknet_zh"> Telegram</a></p>
+  <p align="center">找到我们：<a href="https://twitter.com/StarkNet_ZH"> Twitter </a> | <a href="https://mirror.xyz/starknet-zh.eth"> Mirror Blog</a> | <a href="https://starknetzh.substack.com"> Substack 日报/周报</a> | <a href="https://starknet-zh.notion.site/StarkNet-ca5af6495c3642e6b48424202fbec3d1"> 资源面板</a>  |  <a href="https://t.me/starknet_zh"> Telegram</a></p>
 
 </div>
-
 
 
 
@@ -145,6 +144,7 @@
 - [Cairo 和 StarkNet 学习笔记](https://david-barreto.com/) | 作者：[David Barreto](https://twitter.com/barretodavid)
 - [StarkNet Developer Guide](https://www.devpill.me/docs/starknet-development/introduction/) | 作者：[devpill.me](https://www.devpill.me/)
 - [Cairo 和 StarkNet 安全](https://ctrlc03.github.io/#signature-replay-attacks) | 作者：[ctrlc03.eth](https://twitter.com/ctrl_c3)
+- [Cairo 格式和风格指南](https://hackmd.io/@0xHyoga/BkKhLIMJi)
 
 
 
@@ -200,6 +200,7 @@
 - [Linear Regression](https://github.com/trangnv/linear-regression-starknet) - 采用 commit-reveal 机制的机器学习模型
 
 
+
 ## 🧲 教学内容
 
 - STARK 有效性证明 - [视频](https://youtu.be/E4YO11rHMhw) | [Slide](https://slideshare.net/TinaBregovi/starknet-intro)
@@ -223,6 +224,7 @@
 
 - [Protostar 编写 StarkNet 智能合约的全开发周期教程](https://blog.swmansion.com/testing-starknet-contracts-made-easy-with-protostar-2ecdad3c9133) by [Software Mansion](https://twitter.com/swmansion)
 - [StarkNet 开发指南](https://github.com/onlydustxyz/development-guidelines/blob/main/starknet/README.md)
+- [GoL2 合约开发指南（一）：合约和 Indexer](https://medium.com/@yuki_labs/gol2-behind-the-scenes-contract-indexer-database-32f92fee2404)
 - [Cygnus 合约格式指南](https://hackmd.io/@0xHyoga/BkKhLIMJi)
 - [Cairo 惯例](https://github.com/milancermak/cairopractice/blob/master/2022-08-25-cairo-conventions/CairoConventions.md)
 - [如何部署 Cairo 开发环境](https://th0rgal.medium.com/the-easiest-way-to-setup-a-cairo-dev-environment-8f2a63610d46)
@@ -242,7 +244,6 @@
 ## 🧬 生态
 
 - [StarkNet 生态](https://starknet-ecosystem.com) - [社区发起](https://github.com/419Labs/starknet-ecosystem.com) StarkNet 生态项目和团队汇总
-- [在建生态汇总](https://starkware.notion.site/Projects-Building-on-StarkNet-a33dee55778a4515a9be9bdae02ee682)
 - [跨链桥 StarkGate](https://goerli.starkgate.starknet.io) | [前端 repo](https://github.com/starkware-libs/starkgate-frontend) | [合约](https://github.com/starkware-libs/starkgate-contracts/tree/main/src/starkware/starknet/apps/starkgate) |  [合约地址](https://github.com/starkware-libs/starknet-addresses)
 - [Arch](https://immutablex.medium.com/immutable-is-pleased-to-introduce-arch-v1-0-c45531dc3a2) - Immutable X 开发的 NFT 跨链桥
 - [Starknet Indexer](https://github.com/olegabu/starknet-archive-docs#starknet-indexer) - [官网](starknetindex.com)
@@ -294,6 +295,7 @@
 - [Quark Blockchain](https://github.com/liamzebedee/quark-blockchain) - STARK 扩展方案
 - [Winterfell](https://github.com/novifinancial/winterfell) - STARK 证明者架构
 - [RISC ZERO](https://www.risczero.com/docs/explainers/zkvm/what_is_risc_zero) - zkVM
+
 
 
 ---
