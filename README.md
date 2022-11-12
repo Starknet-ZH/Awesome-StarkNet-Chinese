@@ -20,7 +20,7 @@
   <p align="center">本文档汇聚<a href="https://medium.com/starkware/starknet-alpha-is-coming-to-mainnet-b825829eaf32"> StarkNet </a>资源、工具、代码库、生态、应用等内容。由<a href="https://twitter.com/StarkNet_ZH">「StarkNet 中文」</a>编撰。</p>
   <p align="center">欢迎加入我们或按照<a href="CONTRIBUTING.md">《贡献者指南》</a>为本库 PR 贡献。</p>
   
-  <p align="center">找到我们：<a href="https://twitter.com/StarkNet_ZH"> Twitter </a> | <a href="https://mirror.xyz/starknet-zh.eth"> Mirror Blog</a> | <a href="https://starknetzh.substack.com"> Substack 日报/周报</a> | <a href="https://starknet-zh.notion.site/StarkNet-ca5af6495c3642e6b48424202fbec3d1"> 资源面板</a>  |  <a href="https://t.me/starknet_zh"> Telegram</a></p>
+  <p align="center">找到我们：<a href="https://twitter.com/StarkNet_ZH"> Twitter </a> | <a href="https://mirror.xyz/starknet-zh.eth"> Mirror Blog</a> | <a href="https://starknetzh.substack.com"> Substack 日报/周报</a> | <a href="https://starknet-zh.notion.site/StarkNet-ca5af6495c3642e6b48424202fbec3d1"> 资源面板</a>  |  <a href="https://discord.gg/R8A879b8x3"> Discord</a></p>
 
 </div>
 
