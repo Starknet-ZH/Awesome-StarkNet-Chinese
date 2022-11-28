@@ -103,6 +103,7 @@
 - [Cairo Sha256](https://github.com/cartridge-gg/cairo-sha256) - SHA256 生成器
 - [Nile Coverage](https://github.com/ericnordelo/nile-coverage) - Cairo 合约覆盖率报告插件
 - [STARK Utils](www.stark-utils.xyz) | [代码库](https://github.com/gaetbout/stark-utils) - 开发者转换、哈希计算、签名工具
+- [miniSTARK](https://github.com/andrewmilson/ministark) - GPU 加速 STARK 证明器
 
 
 
@@ -145,6 +146,7 @@
 - [StarkNet Developer Guide](https://www.devpill.me/docs/starknet-development/introduction/) | 作者：[devpill.me](https://www.devpill.me/)
 - [Cairo 和 StarkNet 安全](https://ctrlc03.github.io/#signature-replay-attacks) | 作者：[ctrlc03.eth](https://twitter.com/ctrl_c3)
 - [Cairo 格式和风格指南](https://hackmd.io/@0xHyoga/BkKhLIMJi)
+- [BrainSTARK](https://aszepieniec.github.io/stark-brainfuck/)
 
 
 
@@ -198,6 +200,8 @@
 - [Khepri StarkNet](https://github.com/bitcoin-stark/khepri-starknet) - 利用 STARK zkp 的比特币轻节点
 - [Starknet Staking](https://github.com/pedrobergamini/starknet-staking) - 利用 L1 <> L2 通讯实现质押奖励
 - [Linear Regression](https://github.com/trangnv/linear-regression-starknet) - 采用 commit-reveal 机制的机器学习模型
+- [STARK-SNARK Recursive Proofs](https://github.com/VictorColomb/stark-snark-recursive-proofs) - Circom 编译器 Winterfell 生成 STARK 证明
+- [STARKNET-PHASER-GAME](https://github.com/ExyUzi/STARKNET-PHASER-GAME) - 赛车游戏
 
 
 
@@ -277,6 +281,8 @@
 - [DeFi pooling](https://medium.com/starkware/defi-pooling-1332ddebff21) | [文档](https://docs.starkware.co/starkex-v4/starkex-deep-dive/defi-pooling)
 - [数据可用](https://medium.com/starkware/volition-and-the-emerging-data-availability-spectrum-87e8bfa09bb)
 - [分形扩展：L2 <-> L3](https://medium.com/starkware/fractal-scaling-from-l2-to-l3-7fe238ecfb4f)
+- [STARKs: Verifying complex auto battler calculation on Ethereum — Scaling decentralized games](https://killari.medium.com/starks-verifying-a-complex-auto-battler-calculation-on-ethereum-d8698f29808d)
+- [What is the anatomy of a STARK proof?](https://hackmd.io/@liamzebedee/H1ejQCoHj)
 
 
 ## 🔑 文章合集
@@ -288,12 +294,13 @@
 - [STARKs, Part III: Into the Weeds (vitalik.ca)](https://vitalik.ca/general/2018/07/21/starks_part_3.html)
 - 《[STARK 算法解析](https://mp.weixin.qq.com/s/nBfL0MzqzOxGlSZgw6I85Q)》，译者：zkCloak | [Anatomy of a STARK](https://aszepieniec.github.io/stark-anatomy/)
 - 《[帐户抽象随想](https://mirror.xyz/sylve.eth/Un2EYccIpfE3BDevwOf9hWWcSn2NsiRIivZlBLNX7Ag)》
+- 
 
 
 ## 💻 其他
 
 - [Quark Blockchain](https://github.com/liamzebedee/quark-blockchain) - STARK 扩展方案
-- [Winterfell](https://github.com/novifinancial/winterfell) - STARK 证明者架构
+- [Winterfell](https://github.com/novifinancial/winterfell) - STARK 证明架构
 - [RISC ZERO](https://www.risczero.com/docs/explainers/zkvm/what_is_risc_zero) - zkVM
 
 
