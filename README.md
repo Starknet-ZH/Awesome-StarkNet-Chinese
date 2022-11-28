@@ -25,7 +25,6 @@
 </div>
 
 
-
 ## 🏰 官方资源
 
 - [官网](https://starkware.co/)
@@ -85,6 +84,7 @@
 - [Felucca](https://github.com/franalgaba/felucca) - 代码依赖性管理工具 Felucca
 - [Cairo rs](https://github.com/lambdaclass/cairo-rs) - Cairo Rust VM
 - [starknet-rs](https://github.com/xJonathanLEI/starknet-rs) - StarkNet Rust 代码库
+- [starkli](https://github.com/xJonathanLEI/starkli) - StarkNet Rust 的 CLI 工具
 - [StarkNet 数据仓库 (“SDW”)](https://tokenflow.live/blog/edw-open)
 - [ZigZag StarkNet 预言机](https://github.com/ZigZagExchange/starknet-oracle)
 - [React + Redux 库](https://github.com/ruleslabs/starknet-redux-multicall) - 通过批量缓存调用，撷取每个区块的状态
@@ -104,7 +104,6 @@
 - [Nile Coverage](https://github.com/ericnordelo/nile-coverage) - Cairo 合约覆盖率报告插件
 - [STARK Utils](www.stark-utils.xyz) | [代码库](https://github.com/gaetbout/stark-utils) - 开发者转换、哈希计算、签名工具
 - [miniSTARK](https://github.com/andrewmilson/ministark) - GPU 加速 STARK 证明器
-
 
 
 ## 🗂 官方 GitHub 库
@@ -147,7 +146,6 @@
 - [Cairo 和 StarkNet 安全](https://ctrlc03.github.io/#signature-replay-attacks) | 作者：[ctrlc03.eth](https://twitter.com/ctrl_c3)
 - [Cairo 格式和风格指南](https://hackmd.io/@0xHyoga/BkKhLIMJi)
 - [BrainSTARK](https://aszepieniec.github.io/stark-brainfuck/)
-
 
 
 ## 🛠 生态开发部署
@@ -202,7 +200,6 @@
 - [Linear Regression](https://github.com/trangnv/linear-regression-starknet) - 采用 commit-reveal 机制的机器学习模型
 - [STARK-SNARK Recursive Proofs](https://github.com/VictorColomb/stark-snark-recursive-proofs) - Circom 编译器 Winterfell 生成 STARK 证明
 - [STARKNET-PHASER-GAME](https://github.com/ExyUzi/STARKNET-PHASER-GAME) - 赛车游戏
-
 
 
 ## 🧲 教学内容
@@ -302,7 +299,6 @@
 - [Quark Blockchain](https://github.com/liamzebedee/quark-blockchain) - STARK 扩展方案
 - [Winterfell](https://github.com/novifinancial/winterfell) - STARK 证明架构
 - [RISC ZERO](https://www.risczero.com/docs/explainers/zkvm/what_is_risc_zero) - zkVM
-
 
 
 ---
