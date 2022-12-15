@@ -25,6 +25,7 @@
 </div>
 
 
+
 ## 🏰 官方资源
 
 - [官网](https://starkware.co/)
@@ -80,7 +81,7 @@
 - [Starkops](https://github.com/0xs34n/starkops) - TypeScript 语言 StarkNet 工具链命令行
 - [starknet-web3-rpc-adapter](https://github.com/software-mansion-labs/starknet-web3-rpc-adapter) - 向 StarkNet 传输信息的转接器应用
 - [Starktx](http://starktx.info) - 交易解码工具 | [源代码和文档](https://github.com/TokenFlowInsights/StarkTx)
-- [Giza](https://github.com/maxgillett/giza) - Cairo VM 运行的证明和验证代码库
+- [Giza](https://github.com/maxgillett/giza) - Cairo VM 证明和验证代码库
 - [Felucca](https://github.com/franalgaba/felucca) - 代码依赖性管理工具 Felucca
 - [Cairo rs](https://github.com/lambdaclass/cairo-rs) - Cairo Rust VM
 - [starknet-rs](https://github.com/xJonathanLEI/starknet-rs) - StarkNet Rust 代码库
@@ -104,6 +105,7 @@
 - [Nile Coverage](https://github.com/ericnordelo/nile-coverage) - Cairo 合约覆盖率报告插件
 - [STARK Utils](www.stark-utils.xyz) | [代码库](https://github.com/gaetbout/stark-utils) - 开发者转换、哈希计算、签名工具
 - [miniSTARK](https://github.com/andrewmilson/ministark) - GPU 加速 STARK 证明器
+
 
 
 ## 🗂 官方 GitHub 库
@@ -146,6 +148,7 @@
 - [Cairo 和 StarkNet 安全](https://ctrlc03.github.io/#signature-replay-attacks) | 作者：[ctrlc03.eth](https://twitter.com/ctrl_c3)
 - [Cairo 格式和风格指南](https://hackmd.io/@0xHyoga/BkKhLIMJi)
 - [BrainSTARK](https://aszepieniec.github.io/stark-brainfuck/)
+
 
 
 ## 🛠 生态开发部署
@@ -194,12 +197,16 @@
 - [Thoth](https://github.com/FuzzingLabs/thoth) - 字节码反汇编程序，可生成调用流程图与控制流程图
 - [Cairo Wadray](https://github.com/lindy-labs/cairo-wadray) - 利用 felt 的固定小数点算数公式
 - [Cairo Math 64x61](https://github.com/influenceth/cairo-math-64x61) - Cairo 64x61 固定点数
-- [cairo-accesscontrol](https://github.com/lindy-labs/cairo-accesscontrol) - 会员访问控制合约
-- [Khepri StarkNet](https://github.com/bitcoin-stark/khepri-starknet) - 利用 STARK zkp 的比特币轻节点
 - [Starknet Staking](https://github.com/pedrobergamini/starknet-staking) - 利用 L1 <> L2 通讯实现质押奖励
 - [Linear Regression](https://github.com/trangnv/linear-regression-starknet) - 采用 commit-reveal 机制的机器学习模型
+- [cairo-accesscontrol](https://github.com/lindy-labs/cairo-accesscontrol) - 会员访问控制合约
+- [Khepri StarkNet](https://github.com/bitcoin-stark/khepri-starknet) - 利用 STARK zkp 的比特币轻节点
+- [ZeroSync](https://github.com/ZeroSync/ZeroSync) - STARK 证明的比特币全节点
 - [STARK-SNARK Recursive Proofs](https://github.com/VictorColomb/stark-snark-recursive-proofs) - Circom 编译器 Winterfell 生成 STARK 证明
 - [STARKNET-PHASER-GAME](https://github.com/ExyUzi/STARKNET-PHASER-GAME) - 赛车游戏
+- [json-on-starknet](https://github.com/raphaelDkhn/json-on-starknet) - Cairo 合约实现 JSON 数据结构，例如应用于 MIDI 文件
+- [Cairo ECS](https://github.com/BibliothecaForAdventurers/cairo-ecs) - Cairo 实现 MUD ECS 引擎 | [介绍](https://mirror.xyz/matchboxdao.eth/d3lVAOa9Bi0kY-caoUT3lDC6E61mWJqtP1q6tME4xGY)
+
 
 
 ## 🧲 教学内容
