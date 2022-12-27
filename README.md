@@ -60,14 +60,16 @@
 - [Skyro](https://github.com/skyro-compiler/skyro) -  [Idris2](https://github.com/idris-lang/Idris2) <-> Cairo 转译器
 - [Starkscan](https://starkscan.co/) - 区块链浏览器
 - [Voyager](https://voyager.online) - 区块链浏览器
-- [Amarna](https://github.com/crytic/amarna) - Trail of Bits 推出的[静态安全分析工具](https://blog.trailofbits.com/2022/04/20/amarna-static-analysis-for-cairo-programs)，用于识别错误代码和安全隐患
-- [Medjai](https://github.com/Veridise/Medjai) - Cairo 符号执行工具。用以检测 Bug | [使用说明](https://medium.com/veridise/medjai-protecting-cairo-code-from-bugs-d82ec852cd45)
 - [Protostar](https://github.com/software-mansion/protostar) | [网站](https://docs.swmansion.com/protostar) - [Software Mansion](https://twitter.com/swmansion) 开发的 Cairo 智能合约开发、测试管理工具
-- [Cairo Foundry](https://github.com/onlydustxyz/cairo-foundry) - 类 Foundry 的 StarkNet 合约框架
-- [Prototype](https://github.com/sambarnes/prototype) - 基于 Cairo 开发工具 Protostar 的项目开发模板
+- [Prototype](https://github.com/sambarnes/prototype) - 基于 Protostar 的项目开发模板
 - [starknet.py](https://github.com/software-mansion/starknet.py) - Python SDK 代码库
 - [starknet.js](https://github.com/0xs34n/starknet.js) - StarkNet JavaScript 代码库
 - [starknet-jvm](https://github.com/software-mansion/starknet-jvm) - JVM 语言的 StarkNet SDK
+- [Cairo Foundry](https://github.com/onlydustxyz/cairo-foundry) - 类 Foundry 的 StarkNet 合约框架
+- [Amarna](https://github.com/crytic/amarna) - Trail of Bits 推出的[静态安全分析工具](https://blog.trailofbits.com/2022/04/20/amarna-static-analysis-for-cairo-programs)，用于识别错误代码和安全隐患
+- [Medjai](https://github.com/Veridise/Medjai) - Cairo 符号执行工具。用以检测 Bug | [使用说明](https://medium.com/veridise/medjai-protecting-cairo-code-from-bugs-d82ec852cd45)
+- [Cairo Fuzzer](https://github.com/FuzzingLabs/cairo-fuzzer) - 合约安全检查工具
+- [Starkscan Verifier](https://github.com/starkscan/starkscan-verifier) - 验证 Cairo 合约
 - [Juno](https://github.com/NethermindEth/juno) - Nethermind 全节点客户端
 - [Pathfinder](https://github.com/eqlabs/pathfinder) - Equilibrium 开发的 Rust 全节点
 - [Pytest](https://github.com/TimNooren/pytest-cairo) - Python 测试 Cairo 和 StarkNet 
@@ -100,11 +102,12 @@
 - [vscode-cairo-extension](https://github.com/qd-qd/vscode-cairo-extension) - Cairo vscode 开发插件
 - [Interface Generator](https://github.com/msaug/starknet-interface-generator) - Cairo 合约接口生成工具
 - [Sahara](https://github.com/boray/sahara) - [合约类与合约库查询工具](sahara-jet.vercel.app)
-- [kaaper](https://github.com/onlydustxyz/kaaper) - Cairo 项目文档生成器
+- [Kaaper](https://github.com/onlydustxyz/kaaper) - Cairo 项目文档生成器
 - [Cairo Sha256](https://github.com/cartridge-gg/cairo-sha256) - SHA256 生成器
 - [Nile Coverage](https://github.com/ericnordelo/nile-coverage) - Cairo 合约覆盖率报告插件
 - [STARK Utils](www.stark-utils.xyz) | [代码库](https://github.com/gaetbout/stark-utils) - 开发者转换、哈希计算、签名工具
 - [miniSTARK](https://github.com/andrewmilson/ministark) - GPU 加速 STARK 证明器
+- [Beerus](https://github.com/keep-starknet-strange/beerus) - 使用 [Helios](https://github.com/a16z/helios/) 搭建的 StarkNet 轻型客户端，便于从用户端检索网络状态、与合约交互
 
 
 
@@ -147,7 +150,8 @@
 - [StarkNet Developer Guide](https://www.devpill.me/docs/starknet-development/introduction/) | 作者：[devpill.me](https://www.devpill.me/)
 - [Cairo 和 StarkNet 安全](https://ctrlc03.github.io/#signature-replay-attacks) | 作者：[ctrlc03.eth](https://twitter.com/ctrl_c3)
 - [Cairo 格式和风格指南](https://hackmd.io/@0xHyoga/BkKhLIMJi)
-- [BrainSTARK](https://aszepieniec.github.io/stark-brainfuck/)
+- [BrainSTARK](https://aszepieniec.github.io/stark-brainfuck/) - Brainfuck 语言实现 STARK 证明系统
+- [Min StarkNet](https://github.com/Darlington02/min-starknet) - 部署简化版 StarkNet 协议和标准
 
 
 
@@ -253,17 +257,20 @@
 
 - [StarkNet 生态](https://starknet-ecosystem.com) - [社区发起](https://github.com/419Labs/starknet-ecosystem.com) StarkNet 生态项目和团队汇总
 - [跨链桥 StarkGate](https://goerli.starkgate.starknet.io) | [前端 repo](https://github.com/starkware-libs/starkgate-frontend) | [合约](https://github.com/starkware-libs/starkgate-contracts/tree/main/src/starkware/starknet/apps/starkgate) |  [合约地址](https://github.com/starkware-libs/starknet-addresses)
+- [Kakarot](https://github.com/sayajin-labs/kakarot) - 利用 STARK 证明用 Cairo 实现的三型 ZK-EVM
 - [Arch](https://immutablex.medium.com/immutable-is-pleased-to-introduce-arch-v1-0-c45531dc3a2) - Immutable X 开发的 NFT 跨链桥
 - [Starknet Indexer](https://github.com/olegabu/starknet-archive-docs#starknet-indexer) - [官网](starknetindex.com)
 - [Checkpoint](https://checkpoint.fyi/) - Snapshot 提供的 StarkNet 数据检索库 | [发布](https://twitter.com/StarkNet_ZH/status/1536980057893535744) | [文档](https://docs.checkpoint.fyi/)
 - [Empiric](https://empiric.network/) - Oracle | [GitHub](https://github.com/42labs/Empiric)
 - [Fossil](https://docs.oiler.network/oiler-network/products/fossil/getting-started) - Starknet L2 Verifier 验证合约和链上预言机 by [@OilerNetwork](https://twitter.com/OilerNetwork) | [API](https://fossil.oiler.network/docs) | [官宣](https://medium.com/oiler-network/introducing-fossil-ce4c23ad17c4)
+- [Chronos-Oracle](https://github.com/CarmineOptions/Chronos-Oracle) - 期权协议 [Carmine](https://carmine.finance/) 预言机
 - [zkPad](https://zkpad.io) - 众筹和 launchpad 平台 | [GitHub](https://github.com/ZkPad-Labs/zkpad-contracts)
 - [CodeforDAO](https://github.com/CodeforDAO/cairo-contracts) - 开发者协作 DAO
 - [RockyBot](https://github.com/Modulus-Labs/RockyBot) - 链上机器学习人工智能交易机器人
 - [Switch](https://github.com/Starknet-Recovery-Service) - 钱包恢复服务（[StarkNet House](https://twitter.com/StarknetHouse) 黑客松第一名）
 - [Tic tac](https://github.com/aymericdelab/cairo-matchbox-hackathon) - 链上 AI 代理（[MatchboxDAO](https://twitter.com/matchbox_dao) 黑客松第一名）
 - [GoL2-Contract](https://github.com/yuki-wtf/GoL2-Contract) - [GOL2](https://www.gol2.io/) 全链游戏
+- [Carbonable Contracts](https://github.com/Carbonable/carbonable-contracts) - 碳中和项目 [Carbonable](https://carbonable.io/) 半同质化代币合约
 - [StarkNet Plugin Account](https://github.com/argentlabs/starknet-plugin-account) - StarkNet 帐户合约插件标准
 
 
@@ -298,7 +305,6 @@
 - [STARKs, Part III: Into the Weeds (vitalik.ca)](https://vitalik.ca/general/2018/07/21/starks_part_3.html)
 - 《[STARK 算法解析](https://mp.weixin.qq.com/s/nBfL0MzqzOxGlSZgw6I85Q)》，译者：zkCloak | [Anatomy of a STARK](https://aszepieniec.github.io/stark-anatomy/)
 - 《[帐户抽象随想](https://mirror.xyz/sylve.eth/Un2EYccIpfE3BDevwOf9hWWcSn2NsiRIivZlBLNX7Ag)》
-- 
 
 
 ## 💻 其他
@@ -306,6 +312,7 @@
 - [Quark Blockchain](https://github.com/liamzebedee/quark-blockchain) - STARK 扩展方案
 - [Winterfell](https://github.com/novifinancial/winterfell) - STARK 证明架构
 - [RISC ZERO](https://www.risczero.com/docs/explainers/zkvm/what_is_risc_zero) - zkVM
+- [zkOS](https://github.com/starkoracles/zkos) - 采用 Winterfell 和 RISC Zero 的 ZKP 执行层
 
 
 ---
