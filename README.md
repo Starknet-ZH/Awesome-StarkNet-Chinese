@@ -70,6 +70,7 @@
 - [Medjai](https://github.com/Veridise/Medjai) - Cairo 符号执行工具。用以检测 Bug | [使用说明](https://medium.com/veridise/medjai-protecting-cairo-code-from-bugs-d82ec852cd45)
 - [Cairo Fuzzer](https://github.com/FuzzingLabs/cairo-fuzzer) - 合约安全检查工具
 - [Starkscan Verifier](https://github.com/starkscan/starkscan-verifier) - 验证 Cairo 合约
+- [Papyrus](https://github.com/starkware-libs/papyrus) - StarkWare 开发的 Rust 全节点
 - [Juno](https://github.com/NethermindEth/juno) - Nethermind 全节点客户端
 - [Pathfinder](https://github.com/eqlabs/pathfinder) - Equilibrium 开发的 Rust 全节点
 - [Pytest](https://github.com/TimNooren/pytest-cairo) - Python 测试 Cairo 和 StarkNet 
@@ -108,6 +109,8 @@
 - [STARK Utils](www.stark-utils.xyz) | [代码库](https://github.com/gaetbout/stark-utils) - 开发者转换、哈希计算、签名工具
 - [miniSTARK](https://github.com/andrewmilson/ministark) - GPU 加速 STARK 证明器
 - [Beerus](https://github.com/keep-starknet-strange/beerus) - 使用 [Helios](https://github.com/a16z/helios/) 搭建的 StarkNet 轻型客户端，便于从用户端检索网络状态、与合约交互
+- [Garaga](https://github.com/keep-starknet-strange/garaga) - 在 StarkNet 密码学应用
+- [Beerus](https://github.com/keep-starknet-strange/beerus) - StarkNet 轻客户端
 
 
 
@@ -313,6 +316,7 @@
 - [Winterfell](https://github.com/novifinancial/winterfell) - STARK 证明架构
 - [RISC ZERO](https://www.risczero.com/docs/explainers/zkvm/what_is_risc_zero) - zkVM
 - [zkOS](https://github.com/starkoracles/zkos) - 采用 Winterfell 和 RISC Zero 的 ZKP 执行层
+
 
 
 ---
