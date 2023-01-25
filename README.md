@@ -25,7 +25,6 @@
 </div>
 
 
-
 ## 🏰 官方资源
 
 - [官网](https://starkware.co/)
@@ -110,7 +109,9 @@
 - [miniSTARK](https://github.com/andrewmilson/ministark) - GPU 加速 STARK 证明器
 - [Beerus](https://github.com/keep-starknet-strange/beerus) - 使用 [Helios](https://github.com/a16z/helios/) 搭建的 StarkNet 轻型客户端，便于从用户端检索网络状态、与合约交互
 - [Garaga](https://github.com/keep-starknet-strange/garaga) - 在 StarkNet 密码学应用
-- [Beerus](https://github.com/keep-starknet-strange/beerus) - StarkNet 轻客户端
+- [Starknet.js](https://www.starknetjs.com/guides/what_s_starknet.js) - StarkNet JavaScript 文档
+- [Remix plug-in](https://github.com/groksmith/starkware-remix-plugin) - Remix Cairo 开发插件
+- [Remix game day](https://github.com/starknet-edu/remix-game-day) - Remix 开发 StarkNet 合约简易指南
 
 
 
@@ -316,7 +317,6 @@
 - [Winterfell](https://github.com/novifinancial/winterfell) - STARK 证明架构
 - [RISC ZERO](https://www.risczero.com/docs/explainers/zkvm/what_is_risc_zero) - zkVM
 - [zkOS](https://github.com/starkoracles/zkos) - 采用 Winterfell 和 RISC Zero 的 ZKP 执行层
-
 
 
 ---
