@@ -31,6 +31,7 @@
 - [StarkNet 概况](https://starknet.io/)
 - [StarkNet 文档](https://docs.starknet.io)
 - [StarkNet 开发指南](https://starknet.io/building-on-starknet/)
+- [Starknet Stack Resources](https://github.com/starknet-io/starknet-stack-resources) - Cairo 和审计资源
 - [Setting up the environment](https://www.cairo-lang.org/docs/quickstart.html) - 运行 Cairo 开发环境
 - [Hello Cairo](https://www.cairo-lang.org/docs/hello_cairo/index.html) - Cairo 合约开发指南
 - [Cairo Reference](https://www.cairo-lang.org/docs/reference/index.html) - Cairo 语义详解
@@ -62,9 +63,10 @@
 - [Protostar](https://github.com/software-mansion/protostar) | [网站](https://docs.swmansion.com/protostar) - [Software Mansion](https://twitter.com/swmansion) 开发的 Cairo 智能合约开发、测试管理工具
 - [Prototype](https://github.com/sambarnes/prototype) - 基于 Protostar 的项目开发模板
 - [starknet.py](https://github.com/software-mansion/starknet.py) - Python SDK 代码库
-- [starknet.js](https://github.com/0xs34n/starknet.js) - StarkNet JavaScript 代码库
-- [starknet-jvm](https://github.com/software-mansion/starknet-jvm) - JVM 语言的 StarkNet SDK
+- [starknet.js](https://github.com/0xs34n/starknet.js) | [文档](https://www.starknetjs.com/guides/what_s_starknet.js) - StarkNet JavaScript 代码库
+- [Starknet JVM](https://github.com/software-mansion/starknet-jvm) - JVM 语言的 StarkNet SDK
 - [Cairo Foundry](https://github.com/onlydustxyz/cairo-foundry) - 类 Foundry 的 StarkNet 合约框架
+- [Horus Checker](https://github.com/NethermindEth/horus-checker) - [Nethermind](https://nethermind.io/horus) 开发的 StarkNet 智能合约形式化验证工具
 - [Amarna](https://github.com/crytic/amarna) - Trail of Bits 推出的[静态安全分析工具](https://blog.trailofbits.com/2022/04/20/amarna-static-analysis-for-cairo-programs)，用于识别错误代码和安全隐患
 - [Medjai](https://github.com/Veridise/Medjai) - Cairo 符号执行工具。用以检测 Bug | [使用说明](https://medium.com/veridise/medjai-protecting-cairo-code-from-bugs-d82ec852cd45)
 - [Cairo Fuzzer](https://github.com/FuzzingLabs/cairo-fuzzer) - 合约安全检查工具
@@ -72,7 +74,10 @@
 - [Papyrus](https://github.com/starkware-libs/papyrus) - StarkWare 开发的 Rust 全节点
 - [Juno](https://github.com/NethermindEth/juno) - Nethermind 全节点客户端
 - [Pathfinder](https://github.com/eqlabs/pathfinder) - Equilibrium 开发的 Rust 全节点
-- [Pytest](https://github.com/TimNooren/pytest-cairo) - Python 测试 Cairo 和 StarkNet 
+- [Kaioshin](https://github.com/keep-starknet-strange/kaioshin) - 基于 Substrate 用 Rust 写的排序器
+- [Blockifier](https://github.com/starkware-libs/blockifier) - Rust 排序器执行交易组件
+- [Pytest](https://github.com/TimNooren/pytest-cairo) - Python 测试 Cairo 和 StarkNet
+- [Cairo1 Template](https://github.com/msaug/cairo1-template) - Cairo 1.0 开发模板
 - [cairo-glyph](https://github.com/sambarnes/cairo-glyph) - Cairo 管理器
 - [Starknet Devnet](https://github.com/Shard-Labs/starknet-devnet) - Starknet 本地测试网
 - [starknet-hardhat-plugin](https://github.com/Shard-Labs/starknet-hardhat-plugin) - Hardhat 开发工具包
@@ -80,6 +85,8 @@
 - [pre-commit-cairo](https://github.com/franalgaba/pre-commit-cairo) - Cairo git 代码管理工具
 - [Generator](https://github.com/onlydustxyz/generator-starknet) - 用 [@yeoman](https://twitter.com/yeoman) 的智能合约生成器
 - [StarkNet React](https://github.com/apibara/starknet-react) - StarkNet React hooks
+- [VS Code Cairo 插件](https://marketplace.visualstudio.com/items?itemName=ericglau.cairo-ls)
+- [VS Code Cairo 语义插件](https://marketplace.visualstudio.com/items?itemName=starkware.cairo)
 - [Starkops](https://github.com/0xs34n/starkops) - TypeScript 语言 StarkNet 工具链命令行
 - [starknet-web3-rpc-adapter](https://github.com/software-mansion-labs/starknet-web3-rpc-adapter) - 向 StarkNet 传输信息的转接器应用
 - [Starktx](http://starktx.info) - 交易解码工具 | [源代码和文档](https://github.com/TokenFlowInsights/StarkTx)
@@ -97,6 +104,7 @@
 - [Cairo Streams](https://github.com/onlydustxyz/cairo-streams) - 数组流代码库
 - [Caigo](https://github.com/dontpanicdao/caigo) - Golang 代码库
 - [Apibara](https://github.com/apibara/apibara) - dApp 开发工具和 API
+- [Starknet Swift](https://github.com/software-mansion/starknet.swift) - Swift 的 Starknet SDK
 - [Tayt](https://github.com/crytic/tayt) - 智能合约模糊测试工具
 - [Ape](https://github.com/ApeWorX/ape) - [ApeWorX](https://twitter.com/ApeFramework) 开发的智能合约开发工具
 - [vscode-cairo-extension](https://github.com/qd-qd/vscode-cairo-extension) - Cairo vscode 开发插件
@@ -109,9 +117,10 @@
 - [miniSTARK](https://github.com/andrewmilson/ministark) - GPU 加速 STARK 证明器
 - [Beerus](https://github.com/keep-starknet-strange/beerus) - 使用 [Helios](https://github.com/a16z/helios/) 搭建的 StarkNet 轻型客户端，便于从用户端检索网络状态、与合约交互
 - [Garaga](https://github.com/keep-starknet-strange/garaga) - 在 StarkNet 密码学应用
-- [Starknet.js](https://www.starknetjs.com/guides/what_s_starknet.js) - StarkNet JavaScript 文档
 - [Remix plug-in](https://github.com/groksmith/starkware-remix-plugin) - Remix Cairo 开发插件
 - [Remix game day](https://github.com/starknet-edu/remix-game-day) - Remix 开发 StarkNet 合约简易指南
+- [Quaireaux](https://github.com/keep-starknet-strange/quaireaux) - Cairo 1.0 相关代码库和算法
+- [Shenlong](https://github.com/keep-starknet-strange/shenlong) - Cairo 的 LLVM IR 编译工具
 
 
 
@@ -146,14 +155,13 @@
 - [Symbonstark](https://symbonstark.surge.sh) - Cairo 学习 | [GitHub](https://github.com/JejomStark/SymbOnStark)
 - [Perama 博客](https://perama-v.github.io/cairo/intro/) - StarkNet / Cairo 学习笔记
 - [Perama 的 Cairo 使用示例](https://perama-v.github.io/cairo/by-example)
-- [Starklings](https://github.com/onlydustxyz/starklings) - StarkNet 交互式开发指南
 - [@RoboTeddy StarkNet 开发实操心得](https://hackmd.io/@RoboTeddy/BJZFu56wF)
 - [StarkWare 开发笔记](https://seen-joke-82c.notion.site/StarkWare-Development-965f54711eb84dc79f3b61f22df9e383)
 - [Cairo by Example](https://cairo-by-example.org/) - Cairo 学习范例
 - [Cairo 和 StarkNet 学习笔记](https://david-barreto.com/) | 作者：[David Barreto](https://twitter.com/barretodavid)
-- [StarkNet Developer Guide](https://www.devpill.me/docs/starknet-development/introduction/) | 作者：[devpill.me](https://www.devpill.me/)
 - [Cairo 和 StarkNet 安全](https://ctrlc03.github.io/#signature-replay-attacks) | 作者：[ctrlc03.eth](https://twitter.com/ctrl_c3)
 - [Cairo 格式和风格指南](https://hackmd.io/@0xHyoga/BkKhLIMJi)
+- [StarkNet Developer Guide](https://www.devpill.me/docs/starknet-development/introduction/) | 作者：[devpill.me](https://www.devpill.me/)
 - [BrainSTARK](https://aszepieniec.github.io/stark-brainfuck/) - Brainfuck 语言实现 STARK 证明系统
 - [Min StarkNet](https://github.com/Darlington02/min-starknet) - 部署简化版 StarkNet 协议和标准
 
@@ -238,6 +246,9 @@
 
 ## 🔆 开发技巧
 
+- [Starklings](https://github.com/onlydustxyz/starklings) - StarkNet 交互式开发指南
+- [Starklings Cairo1](https://github.com/shramee/starklings-cairo1) - Cairo 1.0 版本 Starklings 交互指南
+- [Rust Book ZH](https://github.com/0xAsten/rust-book-zh) - Rust 编程语言中文翻译
 - [Protostar 编写 StarkNet 智能合约的全开发周期教程](https://blog.swmansion.com/testing-starknet-contracts-made-easy-with-protostar-2ecdad3c9133) by [Software Mansion](https://twitter.com/swmansion)
 - [StarkNet 开发指南](https://github.com/onlydustxyz/development-guidelines/blob/main/starknet/README.md)
 - [GoL2 合约开发指南（一）：合约和 Indexer](https://medium.com/@yuki_labs/gol2-behind-the-scenes-contract-indexer-database-32f92fee2404)
@@ -276,6 +287,7 @@
 - [GoL2-Contract](https://github.com/yuki-wtf/GoL2-Contract) - [GOL2](https://www.gol2.io/) 全链游戏
 - [Carbonable Contracts](https://github.com/Carbonable/carbonable-contracts) - 碳中和项目 [Carbonable](https://carbonable.io/) 半同质化代币合约
 - [StarkNet Plugin Account](https://github.com/argentlabs/starknet-plugin-account) - StarkNet 帐户合约插件标准
+- [Dojo](https://github.com/dojoengine/dojo) - Cairo 全链游戏开发工具
 
 
 ## 📱 应用
@@ -317,6 +329,7 @@
 - [Winterfell](https://github.com/novifinancial/winterfell) - STARK 证明架构
 - [RISC ZERO](https://www.risczero.com/docs/explainers/zkvm/what_is_risc_zero) - zkVM
 - [zkOS](https://github.com/starkoracles/zkos) - 采用 Winterfell 和 RISC Zero 的 ZKP 执行层
+
 
 
 ---
