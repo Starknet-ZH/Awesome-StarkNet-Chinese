@@ -25,6 +25,7 @@
 </div>
 
 
+
 ## 🏰 官方资源
 
 - [官网](https://starkware.co/)
@@ -49,12 +50,13 @@
 
 - OpenZeppelin 合约标准：
   - [入门指南](https://blog.openzeppelin.com/getting-started-with-openzeppelin-contracts-for-cairo)
-  - [OpenZeppelin Cairo 合约库](https://github.com/OpenZeppelin/cairo-contracts)
-  - [Cairo 合约文档](https://github.com/OpenZeppelin/cairo-contracts/blob/main/docs)
+  - [OpenZeppelin Cairo 1.0 合约标准库](https://github.com/OpenZeppelin/cairo-contracts/tree/cairo-1/src/openzeppelin/token)
+  - [Cairo 合约文档](https://docs.openzeppelin.com/contracts-cairo)
   - [Cairo 扩展功能](https://github.com/OpenZeppelin/cairo-contracts/blob/main/docs/Extensibility.md)
   - [帐户抽象](https://github.com/OpenZeppelin/cairo-contracts/discussions/41)
   - [Nile](https://github.com/OpenZeppelin/nile) - CLI 开发工具
 - [Cairo 合约向导](https://wizard.openzeppelin.com/cairo) - 交互式合约生成器
+- [Starknet JSON-RPC API](https://docs.alchemy.com/reference/starknet-api-quickstart) - Alchemy API
 - [Warp](https://github.com/NethermindEth/warp) - Solidity <-> Cairo 转译器
 - [Vyro](https://github.com/tserg/vyro) - Vyper <-> Cairo 转译器
 - [Skyro](https://github.com/skyro-compiler/skyro) -  [Idris2](https://github.com/idris-lang/Idris2) <-> Cairo 转译器
@@ -72,7 +74,7 @@
 - [Cairo Fuzzer](https://github.com/FuzzingLabs/cairo-fuzzer) - 合约安全检查工具
 - [Starkscan Verifier](https://github.com/starkscan/starkscan-verifier) - 验证 Cairo 合约
 - [Papyrus](https://github.com/starkware-libs/papyrus) - StarkWare 开发的 Rust 全节点
-- [Juno](https://github.com/NethermindEth/juno) - Nethermind 全节点客户端
+- [Juno](https://github.com/NethermindEth/juno) - Nethermind 开发的 GoLang 全节点客户端
 - [Pathfinder](https://github.com/eqlabs/pathfinder) - Equilibrium 开发的 Rust 全节点
 - [Kaioshin](https://github.com/keep-starknet-strange/kaioshin) - 基于 Substrate 用 Rust 写的排序器
 - [Blockifier](https://github.com/starkware-libs/blockifier) - Rust 排序器执行交易组件
@@ -121,6 +123,8 @@
 - [Remix game day](https://github.com/starknet-edu/remix-game-day) - Remix 开发 StarkNet 合约简易指南
 - [Quaireaux](https://github.com/keep-starknet-strange/quaireaux) - Cairo 1.0 相关代码库和算法
 - [Shenlong](https://github.com/keep-starknet-strange/shenlong) - Cairo 的 LLVM IR 编译工具
+- [Get Starknet](https://github.com/starknet-io/get-starknet) - 部署 dApp 和钱包工具
+- [Sierra Docs](https://sierra-docs.github.io/#/)
 
 
 
@@ -164,11 +168,13 @@
 - [StarkNet Developer Guide](https://www.devpill.me/docs/starknet-development/introduction/) | 作者：[devpill.me](https://www.devpill.me/)
 - [BrainSTARK](https://aszepieniec.github.io/stark-brainfuck/) - Brainfuck 语言实现 STARK 证明系统
 - [Min StarkNet](https://github.com/Darlington02/min-starknet) - 部署简化版 StarkNet 协议和标准
+- 利用 Starknet 帐户抽象实现[单钱包多人交易竞赛](https://medium.com/@patrick_99337/a-fun-introduction-to-cairo-1-0-d28a9793babb)
 
 
 
 ## 🛠 生态开发部署
 
+- [Chainlink Starknet 部署文档](https://docs.chain.link/data-feeds/starknet) | [Cairo Starter Kit](https://github.com/smartcontractkit/cairo-starter-kit)
 - [StarkNet Debug](https://github.com/starknet-edu/starknet-debug) - 合约 debug 教程 
 - [Hardhat 项目基本范例](https://github.com/Shard-Labs/starknet-hardhat-example) - StarkNet 运行开发环境 Hardhat 范例
 - [用 Cairo 运行物理数学 Gamma 函数](https://github.com/abstractnull/specialfunctions_cairo)
@@ -191,6 +197,8 @@
 - [Flashloan](https://github.com/tohrnii/flashloan-starknet)
 - [Oriac](https://github.com/xJonathanLEI/oriac) - Rust 部署 Cairo VM
 - [链上存取控制合约](https://github.com/419Labs/access-controller-contracts) - 卡槽模式，用以链上注册 | by [@alpharoad_fi](https://twitter.com/alpharoad_fi)
+- [Cairo ML](https://github.com/raphaelDkhn/cairo_ml) - Cairo 1.0 神经网络模型
+- [Neural Network Cairo](https://github.com/franalgaba/neural-network-cairo) - Cairo 1.0 神经网络
 - [tiny-dnn-on-starknet](https://github.com/guiltygyoza/tiny-dnn-on-starknet) - 神经网络
 - [Basic Solver](https://github.com/zoeAD/basic-solver) - DEX 聚合交易解码器
 - [用 Wintefell 部署 Cairo VM](https://github.com/maxgillett/giza)
@@ -244,7 +252,7 @@
 - [MakerDAO x StarkNet 方案讨论](https://forum.makerdao.com/t/mip39c2-sp19-adding-the-starknet-engineering-core-unit-sne-001/9745)
 
 
-## 🔆 开发技巧
+## 🔆 开发工具和指南
 
 - [Starklings](https://github.com/onlydustxyz/starklings) - StarkNet 交互式开发指南
 - [Starklings Cairo1](https://github.com/shramee/starklings-cairo1) - Cairo 1.0 版本 Starklings 交互指南
@@ -266,6 +274,7 @@
 - 开发工具 [Protostar 与 Nile 比较](https://mirror.xyz/onlydust.eth/1yoQch6XFpOjd9VVzZ48bZbpwtmLO2fOqYg7QxzW3DA)
 - [全节点安装指南](https://twitter.com/StarkNet_ZH/status/1522111642498048000)
 - [Infura 或 Alchemy 安装节点](https://mirror.xyz/onlydust.eth/5-AwlDVo6ROXLRQzWDnMLCVVuVEU98koOMXn_wqV_Hk)
+- [Security Challenges Factory for Starknet](https://starknet-challenges.vercel.app/)
 
 
 ## 🧬 生态
@@ -310,6 +319,7 @@
 - [分形扩展：L2 <-> L3](https://medium.com/starkware/fractal-scaling-from-l2-to-l3-7fe238ecfb4f)
 - [STARKs: Verifying complex auto battler calculation on Ethereum — Scaling decentralized games](https://killari.medium.com/starks-verifying-a-complex-auto-battler-calculation-on-ethereum-d8698f29808d)
 - [What is the anatomy of a STARK proof?](https://hackmd.io/@liamzebedee/H1ejQCoHj)
+- [ZK-STARKs — Create Verifiable Trust, even against Quantum Computers](https://medium.com/coinmonks/zk-starks-create-verifiable-trust-even-against-quantum-computers-dd9c6a2bb13d)
 
 
 ## 🔑 文章合集
@@ -328,8 +338,8 @@
 - [Quark Blockchain](https://github.com/liamzebedee/quark-blockchain) - STARK 扩展方案
 - [Winterfell](https://github.com/novifinancial/winterfell) - STARK 证明架构
 - [RISC ZERO](https://www.risczero.com/docs/explainers/zkvm/what_is_risc_zero) - zkVM
+- [valida](https://github.com/delendum-xyz/valida) - STARK zkVM
 - [zkOS](https://github.com/starkoracles/zkos) - 采用 Winterfell 和 RISC Zero 的 ZKP 执行层
-
 
 
 ---
