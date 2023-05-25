@@ -25,7 +25,6 @@
 </div>
 
 
-
 ## 🏰 官方资源
 
 - [官网](https://starkware.co/)
@@ -156,6 +155,9 @@
   - [ERC20](https://github.com/starknet-edu/starknet-erc20) - 如何在 StarkNet 部署 ERC20
   - [ERC721](https://github.com/starknet-edu/starknet-erc721) - 如何在 StarkNet 部署 ERC721
   - [通讯桥](https://github.com/starknet-edu/starknet-messaging-bridge) - 部署 StarkNet <-> Ethereum 跨链应用
+- [Starknet Book](https://book.starknet.io/chapter_1/environment_setup.html)
+- [Cairo Book](https://cairo-book.github.io/)
+- [Sierra Doc](https://sierra-docs.github.io/#/)
 - [Symbonstark](https://symbonstark.surge.sh) - Cairo 学习 | [GitHub](https://github.com/JejomStark/SymbOnStark)
 - [Perama 博客](https://perama-v.github.io/cairo/intro/) - StarkNet / Cairo 学习笔记
 - [Perama 的 Cairo 使用示例](https://perama-v.github.io/cairo/by-example)
@@ -163,6 +165,7 @@
 - [StarkWare 开发笔记](https://seen-joke-82c.notion.site/StarkWare-Development-965f54711eb84dc79f3b61f22df9e383)
 - [Cairo by Example](https://cairo-by-example.org/) - Cairo 学习范例
 - [Cairo 和 StarkNet 学习笔记](https://david-barreto.com/) | 作者：[David Barreto](https://twitter.com/barretodavid)
+- [From Solidity to Cairo 1.0](https://lead-archeology-a38.notion.site/From-Solidity-to-Cairo-1-0-WIP-07097d7de1ad45d9b7c6c63f60b7141c) - Solidity 与 Cairo 1.0 比较
 - [Cairo 和 StarkNet 安全](https://ctrlc03.github.io/#signature-replay-attacks) | 作者：[ctrlc03.eth](https://twitter.com/ctrl_c3)
 - [Cairo 格式和风格指南](https://hackmd.io/@0xHyoga/BkKhLIMJi)
 - [StarkNet Developer Guide](https://www.devpill.me/docs/starknet-development/introduction/) | 作者：[devpill.me](https://www.devpill.me/)
@@ -230,6 +233,7 @@
 - [STARKNET-PHASER-GAME](https://github.com/ExyUzi/STARKNET-PHASER-GAME) - 赛车游戏
 - [json-on-starknet](https://github.com/raphaelDkhn/json-on-starknet) - Cairo 合约实现 JSON 数据结构，例如应用于 MIDI 文件
 - [Cairo ECS](https://github.com/BibliothecaForAdventurers/cairo-ecs) - Cairo 实现 MUD ECS 引擎 | [介绍](https://mirror.xyz/matchboxdao.eth/d3lVAOa9Bi0kY-caoUT3lDC6E61mWJqtP1q6tME4xGY)
+- [Sandstorm](https://github.com/andrewmilson/sandstorm) - 采用 [miniSTARK](https://github.com/andrewmilson/ministark/) 的 Cairo 证明器
 
 
 
@@ -325,6 +329,12 @@
 ## 🔑 文章合集
 
 - 《[密碼學證明的寒武紀大爆發](https://medium.com/taipei-ethereum-meetup/%E5%AF%86%E7%A2%BC%E5%AD%B8%E8%AD%89%E6%98%8E%E7%9A%84%E5%AF%92%E6%AD%A6%E7%B4%80%E5%A4%A7%E7%88%86%E7%99%BC-f3d5a5887c5d)》，译者：[Jerry Ho](https://twitter.com/29988122)  | [原文](https://medium.com/starkware/the-cambrian-explosion-of-crypto-proofs-7ac080ac9aed)
+- STARK 算术化系列
+  - [STARK Math: The Journey Begins](https://medium.com/starkware/stark-math-the-journey-begins-51bd2b063c71)
+  - [Arithmetization I](https://medium.com/starkware/arithmetization-i-15c046390862)
+  - [Arithmetization II](https://medium.com/starkware/arithmetization-ii-403c3b3f4355)
+  - [Low Degree Testing](https://medium.com/starkware/low-degree-testing-f7614f5172db)
+  - [A Framework for Efficient STARKs](https://medium.com/starkware/a-framework-for-efficient-starks-19608ba06fbe)
 - [深入理解 zk-STARK 证明系统](https://trapdoor-tech.github.io/zkstark-book/AIR/air.html)，作者：[@trapdoor_tech](https://twitter.com/trapdoor_tech)
 - [STARKs, Part I: Proofs with Polynomials (vitalik.ca)](https://vitalik.ca/general/2017/11/09/starks_part_1.html)
 - [STARKs, Part II: Thank Goodness It's FRI-day (vitalik.ca)](https://vitalik.ca/general/2017/11/22/starks_part_2.html)
