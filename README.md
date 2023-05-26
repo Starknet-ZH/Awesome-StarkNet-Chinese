@@ -242,12 +242,12 @@
 
 ### Starknet Basecamp Cohort 4
 1. [Starknet Basecamp I: Fundamentals](https://www.youtube.com/watch?v=NdP2jTQ34hY) | [Slide](https://docs.google.com/presentation/d/e/2PACX-1vRpos6yyrEn1WHz1iHpCWe7Ha0F7DEtiwM3pHYlk2S3S6h5rV4dTwhQvbcWeiBfld_kBF51XibeTUFy/pub?start=false&loop=false&delayms=3000&slide=id.g20f90fefc73_0_396)
-2. [Starknet Basecamp II: Deep Dive](https://www.youtube.com/watch?v=2tjBRvwiRAs)
-3. [Starknet Basecamp III: Cairo 1.0](https://www.youtube.com/watch?v=3VSKFgoCD-I) | [Slide](https://docs.google.com/presentation/d/e/2PACX-1vTFSfR4lXrfRCk1Y1NXOskYbrKJRQGDD0OMu-LHDVAIs2f_-XIEd2OneXvZoYblYboUTcDzNALlp6BQ/pub?start=false&loop=false&delayms=3000&slide=id.g23984b97d57_0_0) | [Official Doc](https://www.cairo-lang.org/docs/v1.0/) | [Cairo Book](https://cairo-book.github.io)
+2. [Starknet Basecamp II: Deep Dive](https://www.youtube.com/watch?v=2tjBRvwiRAs) | [Slide](https://docs.google.com/presentation/d/1Znend34Stsg2PgaeRF0oV-yP6x61aKvnXQfiN_-mO8A/edit#slide=id.ge4dcac4bb3_0_817)
+3. [Starknet Basecamp III: Cairo 1.0](https://www.youtube.com/watch?v=3VSKFgoCD-I) | [Slide](https://docs.google.com/presentation/d/e/2PACX-1vTFSfR4lXrfRCk1Y1NXOskYbrKJRQGDD0OMu-LHDVAIs2f_-XIEd2OneXvZoYblYboUTcDzNALlp6BQ/pub?start=false&loop=false&delayms=3000&slide=id.g23984b97d57_0_0) | [Official Doc](https://www.cairo-lang.org/docs/v1.0/) | [Cairo Book](https://cairo-book.github.io/)
 4. [Starknet Basecamp IV: Testing](https://www.youtube.com/watch?v=6f1u1vMNNh0) | [Slide](https://docs.google.com/presentation/d/e/2PACX-1vRzh0hSYYrCv4Mnhe4p5UdnOM3yFdJ3iczo_Za8-p640d1Ajg_vDJvlZ8SyVe2solysm3jiHBomPROW/pub?start=false&loop=false&delayms=3000&slide=id.ge4dcac4bb3_0_817)
 5. [Starknet Basecamp V: Starknet's Architecture](https://www.youtube.com/watch?v=kuM5CQeVv8Y) | [Slide](https://docs.google.com/presentation/d/e/2PACX-1vQYac_xehIQ5vZX_llc-4gGws_d62sKXcanYalaotImZKKuvUSTC0c5V_RPnzyI0BaLSX-503F_djSO/pub?start=false&loop=false&delayms=3000&slide=id.ge4dcac4bb3_0_817) | [Questions](https://docs.google.com/spreadsheets/d/1cq71-lhZcS8wJhVqACKrfYt52j3Nsd9DOHvdVHzSO_4/edit#gid=0)
 6. [Starknet Basecamp VI: STARKs](https://www.youtube.com/watch?v=jg9KSNOO2XY) | [Slide 1](https://docs.google.com/presentation/d/e/2PACX-1vT8qHl3aIzvECjA7sxgVzJCMFchTaAwNXG9t9pwV3CShB4tsTNW_poSZJw5qlaPJwgIsI3chYpqkM52/pub?start=false&loop=false&delayms=3000&slide=id.g20f5f7584b0_0_2); [Slide 2](https://docs.google.com/presentation/d/e/2PACX-1vQSN9ZkOvhS_bOjN5judihHREugl9_UAbfRTLN4BtuI-vqmj1egxIzwKeJyCvftgNdNBG-UfFaZlfya/pub?start=false&loop=false&delayms=3000&slide=id.ge4dcac4bb3_0_817) | [STARKs 101 tutorial](https://github.com/starkware-industries/stark101)
-7. [Starknet Basecamp VII: Cairo's Architecture](https://www.youtube.com/live/uhtW3LsJK-w?feature=share)
+7. [Starknet Basecamp VII: Cairo's Architecture](https://www.youtube.com/live/uhtW3LsJK-w?feature=share) | [Slide](https://docs.google.com/presentation/d/18497tERywOb6S87BEmvkHXk8yJ4vuUQS/edit#slide=id.p1)
 
 
 ## 💬 社区讨论
