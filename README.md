@@ -25,6 +25,7 @@
 </div>
 
 
+
 ## 🏰 官方资源
 
 - [官网](https://starkware.co/)
@@ -123,7 +124,7 @@
 - [Quaireaux](https://github.com/keep-starknet-strange/quaireaux) - Cairo 1.0 相关代码库和算法
 - [Shenlong](https://github.com/keep-starknet-strange/shenlong) - Cairo 的 LLVM IR 编译工具
 - [Get Starknet](https://github.com/starknet-io/get-starknet) - 部署 dApp 和钱包工具
-- [Sierra Docs](https://sierra-docs.github.io/#/)
+- [Starknet Peer Review](https://github.com/StarkNightsWatch/starknet-peer-review) - 生态内互相审计倡议
 
 
 
@@ -239,11 +240,14 @@
 
 ## 🧲 教学内容
 
-- STARK 有效性证明 - [视频](https://youtu.be/E4YO11rHMhw) | [Slide](https://slideshare.net/TinaBregovi/starknet-intro)
-- [桥接通讯](https://github.com/starknet-edu/starknet-messaging-bridge) - [文档](https://starknet.io/docs/hello_starknet/l1l2.html) | [视频](https://www.youtube.com/watch?v=C-6SBaDi5_c) | [Slide](https://slideshare.net/TinaBregovi/starknet-l1l2-messaging-workshop)
-- [StarkNet ERC-20/721](https://github.com/starknet-edu) - [视频](https://youtu.be/PJWIgIoj5kw) | [Slide](https://slideshare.net/TinaBregovi/starknet-erc20-erc721)
-- [钱包、帐户抽象和语义](https://community.starknet.io/t/starknet-account-abstraction-model-part-2/839) - [视频](https://youtu.be/Vgd41wf7-bE) | [Slide](https://slideshare.net/TinaBregovi/starkware-account-abstraction)
-- StarkNet JS - [视频](https://youtu.be/gqj0ENOE0EE) | [Slide](https://slideshare.net/Neven6/starknet-js)
+### Starknet Basecamp Cohort 4
+1. [Starknet Basecamp I: Fundamentals](https://www.youtube.com/watch?v=NdP2jTQ34hY) | [Slide](https://docs.google.com/presentation/d/e/2PACX-1vRpos6yyrEn1WHz1iHpCWe7Ha0F7DEtiwM3pHYlk2S3S6h5rV4dTwhQvbcWeiBfld_kBF51XibeTUFy/pub?start=false&loop=false&delayms=3000&slide=id.g20f90fefc73_0_396)
+2. [Starknet Basecamp II: Deep Dive](https://www.youtube.com/watch?v=2tjBRvwiRAs)
+3. [Starknet Basecamp III: Cairo 1.0](https://www.youtube.com/watch?v=3VSKFgoCD-I) | [Slide](https://docs.google.com/presentation/d/e/2PACX-1vTFSfR4lXrfRCk1Y1NXOskYbrKJRQGDD0OMu-LHDVAIs2f_-XIEd2OneXvZoYblYboUTcDzNALlp6BQ/pub?start=false&loop=false&delayms=3000&slide=id.g23984b97d57_0_0) | [Official Doc](https://www.cairo-lang.org/docs/v1.0/) | [Cairo Book](https://cairo-book.github.io)
+4. [Starknet Basecamp IV: Testing](https://www.youtube.com/watch?v=6f1u1vMNNh0) | [Slide](https://docs.google.com/presentation/d/e/2PACX-1vRzh0hSYYrCv4Mnhe4p5UdnOM3yFdJ3iczo_Za8-p640d1Ajg_vDJvlZ8SyVe2solysm3jiHBomPROW/pub?start=false&loop=false&delayms=3000&slide=id.ge4dcac4bb3_0_817)
+5. [Starknet Basecamp V: Starknet's Architecture](https://www.youtube.com/watch?v=kuM5CQeVv8Y) | [Slide](https://docs.google.com/presentation/d/e/2PACX-1vQYac_xehIQ5vZX_llc-4gGws_d62sKXcanYalaotImZKKuvUSTC0c5V_RPnzyI0BaLSX-503F_djSO/pub?start=false&loop=false&delayms=3000&slide=id.ge4dcac4bb3_0_817) | [Questions](https://docs.google.com/spreadsheets/d/1cq71-lhZcS8wJhVqACKrfYt52j3Nsd9DOHvdVHzSO_4/edit#gid=0)
+6. [Starknet Basecamp VI: STARKs](https://www.youtube.com/watch?v=jg9KSNOO2XY) | [Slide 1](https://docs.google.com/presentation/d/e/2PACX-1vT8qHl3aIzvECjA7sxgVzJCMFchTaAwNXG9t9pwV3CShB4tsTNW_poSZJw5qlaPJwgIsI3chYpqkM52/pub?start=false&loop=false&delayms=3000&slide=id.g20f5f7584b0_0_2); [Slide 2](https://docs.google.com/presentation/d/e/2PACX-1vQSN9ZkOvhS_bOjN5judihHREugl9_UAbfRTLN4BtuI-vqmj1egxIzwKeJyCvftgNdNBG-UfFaZlfya/pub?start=false&loop=false&delayms=3000&slide=id.ge4dcac4bb3_0_817) | [STARKs 101 tutorial](https://github.com/starkware-industries/stark101)
+7. [Starknet Basecamp VII: Cairo's Architecture](https://www.youtube.com/live/uhtW3LsJK-w?feature=share)
 
 
 ## 💬 社区讨论
@@ -279,6 +283,7 @@
 - [全节点安装指南](https://twitter.com/StarkNet_ZH/status/1522111642498048000)
 - [Infura 或 Alchemy 安装节点](https://mirror.xyz/onlydust.eth/5-AwlDVo6ROXLRQzWDnMLCVVuVEU98koOMXn_wqV_Hk)
 - [Security Challenges Factory for Starknet](https://starknet-challenges.vercel.app/)
+- [Sierra Docs](https://sierra-docs.github.io/#/)
 
 
 ## 🧬 生态
